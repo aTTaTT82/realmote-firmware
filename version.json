@@ -1,1 +1,8 @@
-{"version":"4.3.5","build":435,"url":"https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.5.bin","size":1822448,"sig":"MEQCIAkvU97048V8RLILnlh1bv1fT5+XfVAh/3qkf4X8aAJrAiAcAbfdB6JLMZZGgcfGtgG3e94dOHonUHV08FghGnRnfg==","changelog":"GitHub-Selbstupdate Live-Test"}
+{
+  "version": "4.3.6",
+  "build": 436,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.6.bin",
+  "size": 1825088,
+  "sig": "MEUCIElMNx92ppREZa+lSu3p9L5Vd7ZIEmWVXLPEpS8WDmz/AiEAslPjXJycJ24OoeFNJ41Wyr2v4KkcN8UblKJqUXQVl3g=",
+  "changelog": "Ehrliche Speicher-Diagnose beim Update-Check (statt 'Internet OK?') + Neustart-Angebot mit Auto-Re-Check; /health zeigt PSRAM-Status"
+}

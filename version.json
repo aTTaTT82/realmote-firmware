@@ -1,8 +1,8 @@
 {
-  "version": "4.3.6",
-  "build": 436,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.6.bin",
-  "size": 1825088,
-  "sig": "MEUCIElMNx92ppREZa+lSu3p9L5Vd7ZIEmWVXLPEpS8WDmz/AiEAslPjXJycJ24OoeFNJ41Wyr2v4KkcN8UblKJqUXQVl3g=",
-  "changelog": "Ehrliche Speicher-Diagnose beim Update-Check (statt 'Internet OK?') + Neustart-Angebot mit Auto-Re-Check; /health zeigt PSRAM-Status"
+  "version": "4.3.7",
+  "build": 437,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.7.bin",
+  "size": 1830176,
+  "sig": "MEUCIHtJYf9OaXlzZrC2FAU/2TeVhNVu4X+a/qHJ+FJoxqIbAiEA0GIxfVAJrWctcMds52/Zc0B3W0vYn7z+TvoHctrcluY=",
+  "changelog": "PSRAM-Build (OPI, N16R8: 8 MB) - entlastet den Heap, TLS/Update-Check dauerhaft stabil; enthaelt 4.3.6 (ehrliche Speicher-Diagnose + PSRAM in /health)"
 }

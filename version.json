@@ -1,8 +1,8 @@
 {
-  "version": "4.3.12",
-  "build": 442,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.12.bin",
-  "size": 1834896,
-  "sig": "MEQCICcqtY6hEPW5LF2hcJAezKcLzthJiGgzoBns9CvoeGPMAiAyD6PX+5alv0g5FQyCSL13jiepN1zoj8p139kkw26DqA==",
-  "changelog": "setSleep(false) wieder aktiv (Zombie = POST aus schlafendem Modem) + WiFi-Event-Forensik (Disconnect-Codes) in /health"
+  "version": "4.3.13",
+  "build": 443,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.13.bin",
+  "size": 1835056,
+  "sig": "MEUCIBjdXx5pt/XWiEIuJ71KopfYqN1tSO12VA8kQqLFK7ouAiEAqtAYw0NU8WAwxGuFtaKDk4rJZnDQ2JfSgqjilMc9/8U=",
+  "changelog": "Zombie-Wurzelfix: nRF24 stumm waehrend Webhook-POST (keine ACK-Bursts in WLAN-TX; Loop-Handshake, kein SPI-Race)"
 }

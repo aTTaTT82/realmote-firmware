@@ -1,8 +1,8 @@
 {
-  "version": "4.3.8",
-  "build": 438,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.8.bin",
-  "size": 1831568,
-  "sig": "MEUCIQDQFE+pOUX5EtMBzA170SqH5aHir2RWUUytXxPwddWoUAIgbtxPnuUCjKj/NOTp6iQv8/sfq+kWf/kPTJ7ho7GdyuU=",
-  "changelog": "Zombie-WiFi-Fix: Modem-Sleep aus + aktiver Gateway-Check im Self-Heal (3x fail=Reconnect, 6x=Reboot); /health zeigt Netz-Probe"
+  "version": "4.3.9",
+  "build": 439,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.9.bin",
+  "size": 1832032,
+  "sig": "MEUCIQCBwGCTp06V9z9x38Cs3MvUKaPd3FvYiEdBAM1rqcGWEwIgRjqgTOl+I7UAX6CudpyXgiR7iNDi73fEKhktFMnD7KQ=",
+  "changelog": "/health zeigt Chip-Reset-Grund (Panic/Brownout/Watchdog/SW) - Absturz-Diagnose ohne Serial"
 }

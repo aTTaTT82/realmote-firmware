@@ -1,8 +1,8 @@
 {
-  "version": "4.3.10",
-  "build": 440,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.10.bin",
-  "size": 1831952,
-  "sig": "MEQCIGCmujskYsCw27vYTUczZcRfUx2D0S3j0ZbxeGfY8n1aAiAekk89JLPmuYBm3FA7WgY23o0fpt8l6QarzT9gpHovMg==",
-  "changelog": "HOTFIX: setSleep(false) aus 4.3.8 zurueckgenommen (Absturz-Zyklus). Zombie-Schutz via Gateway-Check bleibt; /health zeigt Reset-Grund"
+  "version": "4.3.11",
+  "build": 441,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.11.bin",
+  "size": 1833520,
+  "sig": "MEUCIExz9STvpMY5R4toUI5rDZEX5wQqoVOtOkpgpn74bzddAiEA7R8K2HmK7Ii4tDXc/ZuH4fLH0iuUgjIR8kFZbuTGfwQ=",
+  "changelog": "Wurzel-Fix Zombie-WiFi: Webhook-Task wartet auf nRF24-Funkstille vor dem POST (keine Doppelfunk-Kollision mehr); Restart-Forensik in /health; espota-Fehler rebootet nicht mehr"
 }

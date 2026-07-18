@@ -1,8 +1,8 @@
 {
-  "version": "4.3.9",
-  "build": 439,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.9.bin",
-  "size": 1832032,
-  "sig": "MEUCIQCBwGCTp06V9z9x38Cs3MvUKaPd3FvYiEdBAM1rqcGWEwIgRjqgTOl+I7UAX6CudpyXgiR7iNDi73fEKhktFMnD7KQ=",
-  "changelog": "/health zeigt Chip-Reset-Grund (Panic/Brownout/Watchdog/SW) - Absturz-Diagnose ohne Serial"
+  "version": "4.3.10",
+  "build": 440,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.10.bin",
+  "size": 1831952,
+  "sig": "MEQCIGCmujskYsCw27vYTUczZcRfUx2D0S3j0ZbxeGfY8n1aAiAekk89JLPmuYBm3FA7WgY23o0fpt8l6QarzT9gpHovMg==",
+  "changelog": "HOTFIX: setSleep(false) aus 4.3.8 zurueckgenommen (Absturz-Zyklus). Zombie-Schutz via Gateway-Check bleibt; /health zeigt Reset-Grund"
 }

@@ -1,8 +1,8 @@
 {
-  "version": "4.3.13",
-  "build": 443,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.13.bin",
-  "size": 1835056,
-  "sig": "MEUCIBjdXx5pt/XWiEIuJ71KopfYqN1tSO12VA8kQqLFK7ouAiEAqtAYw0NU8WAwxGuFtaKDk4rJZnDQ2JfSgqjilMc9/8U=",
-  "changelog": "Zombie-Wurzelfix: nRF24 stumm waehrend Webhook-POST (keine ACK-Bursts in WLAN-TX; Loop-Handshake, kein SPI-Race)"
+  "version": "4.3.14",
+  "build": 444,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.14.bin",
+  "size": 1834768,
+  "sig": "MEQCIA13/bb9/tyQXpFYGbj+/W5Z641qDZ14611uo+WXo+IiAiB8co0eQF0Erbr0buOO2Ru/3qPljbmcE8mhm0oxrltIUA==",
+  "changelog": "ECHTER Zombie-Fix: WLAN-Sendeleistung 8,5 dBm (bekannter DevKitC-1-Hardware-Defekt bei 19,5 dBm); Software-Umgehungen aus 4.3.11-13 entfernt"
 }

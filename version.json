@@ -1,8 +1,8 @@
 {
-  "version": "4.3.15",
-  "build": 445,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.15.bin",
-  "size": 1835232,
-  "sig": "MEQCID8smq4vxHqhl7SIj8klVgQexcAp0BQxNmfyQIwyMSLKAiA9DnmWy+DoYAdYQznlMUASjknbTT6Oiqw6xrjhnsp1wQ==",
-  "changelog": "Activity-Nachschubs: gleiche Taste nochmal = Startsequenz sanft wiederholen (Power nur fuer noch-aus-Geraete, Eingaenge+Android-Wake immer neu, 3s-Retry)"
+  "version": "4.3.16",
+  "build": 446,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.16.bin",
+  "size": 1835488,
+  "sig": "MEUCIHcy0QaU9kmv4OdWl/UMjE3u5dGlxH3+2HwmJAaU2HDMAiEA8Sy8Cpk96EH9jwi+EcS987R1nlbkcpKrbEBd9bU9yoU=",
+  "changelog": "Activity-Tasten: kurz=Wechsel (+sanfter Nachschubs bei erneutem Druck), lang halten=Geraete-Nachschub (TV-Power/Android-HOME/Soundbar-Power)"
 }

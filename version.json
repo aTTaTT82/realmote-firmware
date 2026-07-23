@@ -1,8 +1,8 @@
 {
-  "version": "4.5.0",
-  "build": 470,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.5.0.bin",
-  "size": 1840592,
-  "sig": "MEQCIHwLGhEhnI/dpc0LtjKgcKmHdHWiA8FBRbYvFn2WjxwoAiAkbFBKsKYko3Oo1sSWZ2YDZKGnx12f7wl4AtWf5g+XqA==",
-  "changelog": "MQTT statt Webhook-HTTP-POST: stehende Verbindung zum Broker (kein WLAN-Abriss mehr), Last-Will realmote/status, Auto-Reconnect, Keepalive. Zugangsdaten im Web-UI unter /mqtt (nicht im Repo)."
+  "version": "4.5.1",
+  "build": 471,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.5.1.bin",
+  "size": 1840368,
+  "sig": "MEUCIQDmBcIKiD1gVKNaGGNcn/+g3eo4qr31ZmGyjvhVOFtYZgIgYGhFBFUt6xMBZRSSR08DdmlA+2j8GvvSFKgepGUu+Yw=",
+  "changelog": "Web-UI: Beschriftungen von Webhook auf MQTT umgestellt (Config-Tab, Soundbar, IR-Mapper), Config-Tab zeigt das gesendete Topic. Kosmetisch, Funktion wie 4.5.0."
 }

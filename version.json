@@ -1,8 +1,8 @@
 {
-  "version": "4.3.17",
-  "build": 447,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.17.bin",
-  "size": 1835744,
-  "sig": "MEUCIQDcXSD9JluBzE5EQxo9jjOM/HFgq8f33ieoynTO8L0x0wIgGz9Pf6GWF3zjiUY5ukN7MKfgUsiV7+rN3nuygKO7W9A=",
-  "changelog": "Zombie-WiFi-Haertung: Erkennung 6min->~15-20s (checkNetAlive jeden Loop, 5s-Probe, Reboot nach 4 Fails); WiFi-weg-Reboot 5min->60s; Self-Heal-Zaehler in /health"
+  "version": "4.3.18",
+  "build": 448,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.18.bin",
+  "size": 1836768,
+  "sig": "MEQCIGke27KYcWobKMkGA6rkEVa0SrgOqGyCokCQj0oE46d1AiA15mb5ILckYWuDwuBOa6HzsLpT0HSEcoGue+NmLl1OBQ==",
+  "changelog": "ROOT-CAUSE: TX-Power fiel nach Reconnect auf MAX zurueck (Zombie kam wieder). Jetzt bei jedem (Re)Connect erneut auf 8.5 dBm gekappt + Live-Anzeige in /health"
 }

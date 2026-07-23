@@ -1,8 +1,8 @@
 {
-  "version": "4.3.21",
-  "build": 451,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.21.bin",
-  "size": 1835792,
-  "sig": "MEUCIHsyPq16slIDGtzAuziuYtcyhKyEsl0chuRSCWH1K9AUAiEA8qwySj9RJ/wMtNA8jbsoniZgXOj1gxJeDRroVj+Qa10=",
-  "changelog": "Webhook-POST wartet auf nRF24-Funkstille (600ms) -> nRF24 und WLAN senden nie gleichzeitig. nRF24-Leistung unveraendert"
+  "version": "4.3.22",
+  "build": 452,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.22.bin",
+  "size": 1835808,
+  "sig": "MEUCIDZH1XyzJMo4X60p2T9iEkknkwK0Cqc4EfoSm5ricfSjAiEA2W8tc5KehzaLMoAlEH/ZjTpeAJcu2/ZzRfXU+rWQIPU=",
+  "changelog": "Kein LittleFS-Flash-Write bei Webhook-Tasten (stoert WLAN direkt vor dem POST). Andere Tasten schreiben Akku-Historie weiter"
 }

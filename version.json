@@ -1,8 +1,8 @@
 {
-  "version": "4.3.23",
-  "build": 453,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.23.bin",
-  "size": 1835792,
-  "sig": "MEQCIDr1GOGp4s4dD3rdQ7K/JsvCFmS397WyYwOBXlQqdDH5AiASpaWkR1mrGATqPQkoNEp3/aFeO41lZXg6EYYmhl7kqw==",
-  "changelog": "nRF24 Auto-ACK AUS: Hub sendet keine Funk-Quittung mehr -> reiner Empfaenger, keine Gleichzeitigkeit mit WLAN mehr moeglich (Test der Webhook-WLAN-Ursache)"
+  "version": "4.3.27",
+  "build": 457,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.27.bin",
+  "size": 1838240,
+  "sig": "MEUCIQCm6JW1DUUT6uEc4SDGnwUzsNXpv4HuSyKb2MVwQ7gqgQIgDdmltPHyYotUkfaZcvk5PRbntkHapzkBmPTP9G5IOMc=",
+  "changelog": "WEBHOOK-WLAN-FIX: Modem vor POST aufwecken + auf Remote-Funkstille warten (300ms, tunebar). Behebt Webhook-killt-WLAN endgueltig"
 }

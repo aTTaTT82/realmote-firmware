@@ -1,8 +1,8 @@
 {
-  "version": "4.6.0",
-  "build": 480,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.6.0.bin",
-  "size": 1841360,
-  "sig": "MEUCIAby+uRDl3d0cE+YtIPD8zoUXlPTWrS8hVcrx1Xp7a6UAiEAhkbOvdVsI5GJ8kE9YOZKVAu829UGFleADeE5A/DKy54=",
-  "changelog": "Vorbereitung eigene HA-Integration: stabile Geraete-ID, Taster-Event realmote/<id>/button + retained Announce fuer Auto-Discovery. Alt-Weg laeuft parallel weiter."
+  "version": "4.6.1",
+  "build": 481,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.6.1.bin",
+  "size": 1841456,
+  "sig": "MEUCIQDbIJSXrZ1A7mQbG3Me6hw+dkmtynPCIoObXkO/FXvaBAIgUj2oVKTxa8Vq2KC77+497m8Ng7BPA52EPSwCo0akDms=",
+  "changelog": "Announce enthaelt jetzt die Hub-IP -> HA-Integration verlinkt die Geraeteseite direkt auf die Hub-Weboberflaeche."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "4.3.16",
-  "build": 446,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.16.bin",
-  "size": 1835488,
-  "sig": "MEUCIHcy0QaU9kmv4OdWl/UMjE3u5dGlxH3+2HwmJAaU2HDMAiEA8Sy8Cpk96EH9jwi+EcS987R1nlbkcpKrbEBd9bU9yoU=",
-  "changelog": "Activity-Tasten: kurz=Wechsel (+sanfter Nachschubs bei erneutem Druck), lang halten=Geraete-Nachschub (TV-Power/Android-HOME/Soundbar-Power)"
+  "version": "4.3.17",
+  "build": 447,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.17.bin",
+  "size": 1835744,
+  "sig": "MEUCIQDcXSD9JluBzE5EQxo9jjOM/HFgq8f33ieoynTO8L0x0wIgGz9Pf6GWF3zjiUY5ukN7MKfgUsiV7+rN3nuygKO7W9A=",
+  "changelog": "Zombie-WiFi-Haertung: Erkennung 6min->~15-20s (checkNetAlive jeden Loop, 5s-Probe, Reboot nach 4 Fails); WiFi-weg-Reboot 5min->60s; Self-Heal-Zaehler in /health"
 }

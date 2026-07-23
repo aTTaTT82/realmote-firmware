@@ -1,8 +1,8 @@
 {
-  "version": "4.3.20",
-  "build": 450,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.20.bin",
-  "size": 1835696,
-  "sig": "MEUCIQCtgazYA3dZxunkQRrQ8ICEEuME+ba9Qcy8bNkTn2RSEwIgacMAUUPgjCSN7mqCLgviGglola0oxITZIVHYS4D0GdI=",
-  "changelog": "Rueckbau: aktive Zombie-/Gateway-Selbstheilung ENTFERNT (verursachte Neustart-Schleifen). Nur noch Original-Heap-Watchdog + WiFi-Status-5min. TX-Power fest 8.5 dBm (Boot + jeder Reconnect)"
+  "version": "4.3.21",
+  "build": 451,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.21.bin",
+  "size": 1835792,
+  "sig": "MEUCIHsyPq16slIDGtzAuziuYtcyhKyEsl0chuRSCWH1K9AUAiEA8qwySj9RJ/wMtNA8jbsoniZgXOj1gxJeDRroVj+Qa10=",
+  "changelog": "Webhook-POST wartet auf nRF24-Funkstille (600ms) -> nRF24 und WLAN senden nie gleichzeitig. nRF24-Leistung unveraendert"
 }

@@ -1,8 +1,8 @@
 {
-  "version": "4.5.2",
-  "build": 472,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.5.2.bin",
-  "size": 1840512,
-  "sig": "MEQCIDJCg0VvJAV95uqpTZQoD4rvSL7ffdz6BE8L770VJGsoAiAOflI+xdQq/+8AVUhsS9gJdVSNhxcIzf+d7BFrcADtig==",
-  "changelog": "Setup-Wizard-Texte von Webhook auf MQTT umgestellt. Kosmetisch, Funktion wie 4.5.0/4.5.1."
+  "version": "4.6.0",
+  "build": 480,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.6.0.bin",
+  "size": 1841360,
+  "sig": "MEUCIAby+uRDl3d0cE+YtIPD8zoUXlPTWrS8hVcrx1Xp7a6UAiEAhkbOvdVsI5GJ8kE9YOZKVAu829UGFleADeE5A/DKy54=",
+  "changelog": "Vorbereitung eigene HA-Integration: stabile Geraete-ID, Taster-Event realmote/<id>/button + retained Announce fuer Auto-Discovery. Alt-Weg laeuft parallel weiter."
 }

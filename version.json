@@ -1,8 +1,8 @@
 {
-  "version": "4.3.22",
-  "build": 452,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.22.bin",
-  "size": 1835808,
-  "sig": "MEUCIDZH1XyzJMo4X60p2T9iEkknkwK0Cqc4EfoSm5ricfSjAiEA2W8tc5KehzaLMoAlEH/ZjTpeAJcu2/ZzRfXU+rWQIPU=",
-  "changelog": "Kein LittleFS-Flash-Write bei Webhook-Tasten (stoert WLAN direkt vor dem POST). Andere Tasten schreiben Akku-Historie weiter"
+  "version": "4.3.23",
+  "build": 453,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.23.bin",
+  "size": 1835792,
+  "sig": "MEQCIDr1GOGp4s4dD3rdQ7K/JsvCFmS397WyYwOBXlQqdDH5AiASpaWkR1mrGATqPQkoNEp3/aFeO41lZXg6EYYmhl7kqw==",
+  "changelog": "nRF24 Auto-ACK AUS: Hub sendet keine Funk-Quittung mehr -> reiner Empfaenger, keine Gleichzeitigkeit mit WLAN mehr moeglich (Test der Webhook-WLAN-Ursache)"
 }

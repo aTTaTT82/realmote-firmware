@@ -1,8 +1,8 @@
 {
-  "version": "4.4.0",
-  "build": 460,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.4.0.bin",
-  "size": 1830944,
-  "sig": "MEYCIQCFyu7MzoKmAlESRtwVXbpit00JyXYu4QdRanQ8eZ8MvgIhAJ8Nw5N8utp31ke/psT0ggQ93LhN8p06cZ00HmnnJjMD",
-  "changelog": "Sauberer Neuanfang: Basis 4.3.7 + nur 2 Fixes (WLAN-Sparmodus aus, TX fest 8.5 dBm). Alle Experimente 4.3.8-27 entfernt. nRF24 Auto-ACK wieder an."
+  "version": "4.5.0",
+  "build": 470,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.5.0.bin",
+  "size": 1840592,
+  "sig": "MEQCIHwLGhEhnI/dpc0LtjKgcKmHdHWiA8FBRbYvFn2WjxwoAiAkbFBKsKYko3Oo1sSWZ2YDZKGnx12f7wl4AtWf5g+XqA==",
+  "changelog": "MQTT statt Webhook-HTTP-POST: stehende Verbindung zum Broker (kein WLAN-Abriss mehr), Last-Will realmote/status, Auto-Reconnect, Keepalive. Zugangsdaten im Web-UI unter /mqtt (nicht im Repo)."
 }

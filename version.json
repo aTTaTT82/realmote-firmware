@@ -1,8 +1,8 @@
 {
-  "version": "4.3.18",
-  "build": 448,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.18.bin",
-  "size": 1836768,
-  "sig": "MEQCIGke27KYcWobKMkGA6rkEVa0SrgOqGyCokCQj0oE46d1AiA15mb5ILckYWuDwuBOa6HzsLpT0HSEcoGue+NmLl1OBQ==",
-  "changelog": "ROOT-CAUSE: TX-Power fiel nach Reconnect auf MAX zurueck (Zombie kam wieder). Jetzt bei jedem (Re)Connect erneut auf 8.5 dBm gekappt + Live-Anzeige in /health"
+  "version": "4.3.19",
+  "build": 449,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.19.bin",
+  "size": 1837216,
+  "sig": "MEYCIQDU5SEJPb+PVf+3mo99gxFLJ83XW/lSsAmYWsag46uftgIhAPFwezwhI8CnZ/oPFDAmv/54cSNTNdp8Qb6jmxWA+YD0",
+  "changelog": "LOOP-FIX: aggressive Zombie-Erkennung trieb Hub in Neustart-Schleife. Jetzt Reboot nur wenn Gateway-Probe je klappte (netEverOk) + Loop-Bremse nach 3 kurzen Reboots + entschaerfte Schwellen"
 }

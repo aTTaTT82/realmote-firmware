@@ -1,8 +1,8 @@
 {
-  "version": "4.3.19",
-  "build": 449,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.19.bin",
-  "size": 1837216,
-  "sig": "MEYCIQDU5SEJPb+PVf+3mo99gxFLJ83XW/lSsAmYWsag46uftgIhAPFwezwhI8CnZ/oPFDAmv/54cSNTNdp8Qb6jmxWA+YD0",
-  "changelog": "LOOP-FIX: aggressive Zombie-Erkennung trieb Hub in Neustart-Schleife. Jetzt Reboot nur wenn Gateway-Probe je klappte (netEverOk) + Loop-Bremse nach 3 kurzen Reboots + entschaerfte Schwellen"
+  "version": "4.3.20",
+  "build": 450,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.3.20.bin",
+  "size": 1835696,
+  "sig": "MEUCIQCtgazYA3dZxunkQRrQ8ICEEuME+ba9Qcy8bNkTn2RSEwIgacMAUUPgjCSN7mqCLgviGglola0oxITZIVHYS4D0GdI=",
+  "changelog": "Rueckbau: aktive Zombie-/Gateway-Selbstheilung ENTFERNT (verursachte Neustart-Schleifen). Nur noch Original-Heap-Watchdog + WiFi-Status-5min. TX-Power fest 8.5 dBm (Boot + jeder Reconnect)"
 }

@@ -1,8 +1,8 @@
 {
-  "version": "4.6.1",
-  "build": 481,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.6.1.bin",
-  "size": 1841456,
-  "sig": "MEUCIQDbIJSXrZ1A7mQbG3Me6hw+dkmtynPCIoObXkO/FXvaBAIgUj2oVKTxa8Vq2KC77+497m8Ng7BPA52EPSwCo0akDms=",
-  "changelog": "Announce enthaelt jetzt die Hub-IP -> HA-Integration verlinkt die Geraeteseite direkt auf die Hub-Weboberflaeche."
+  "version": "4.7.0",
+  "build": 490,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.7.0.bin",
+  "size": 1841696,
+  "sig": "MEQCICDyrji+zkfF0c8EudZJ3hVSGeihUDJP0qhpMGY4dJVKAiAwjp9XLa42hNQUwdfZNo2ihoNZMEQytWAMVV6Zqgc+xA==",
+  "changelog": "Tasten 1-6 unterscheiden Tippen (kurz) vs. Halten (lang, >=500ms) -> 12 Aktionen. Kurz=realmote/<id>/button, Lang=realmote/<id>/hold. Remote unveraendert."
 }

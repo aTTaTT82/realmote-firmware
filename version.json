@@ -1,8 +1,8 @@
 {
-  "version": "4.7.0",
-  "build": 490,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.7.0.bin",
-  "size": 1841696,
-  "sig": "MEQCICDyrji+zkfF0c8EudZJ3hVSGeihUDJP0qhpMGY4dJVKAiAwjp9XLa42hNQUwdfZNo2ihoNZMEQytWAMVV6Zqgc+xA==",
-  "changelog": "Tasten 1-6 unterscheiden Tippen (kurz) vs. Halten (lang, >=500ms) -> 12 Aktionen. Kurz=realmote/<id>/button, Lang=realmote/<id>/hold. Remote unveraendert."
+  "version": "4.7.1",
+  "build": 491,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.7.1.bin",
+  "size": 1842512,
+  "sig": "MEUCIQDWMIb5wzrJtXPGiAAiOugzzxII48xqHFlcccnBgDyLZQIgWgB65p4Pm5i4BFbKJ21p7v3BNf3F73Et1N7Z4maORsw=",
+  "changelog": "MQTT-Befehlskanal von HA: Hub abonniert realmote/<id>/cmd, Befehl 'alloff' -> alle AV-Geraete aus (ersetzt Harmony im Gute-Nacht-Skript). Thread-safe via Flag im Hauptloop."
 }

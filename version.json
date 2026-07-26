@@ -1,8 +1,8 @@
 {
-  "version": "4.7.1",
-  "build": 491,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.7.1.bin",
+  "version": "4.7.2",
+  "build": 492,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.7.2.bin",
   "size": 1842512,
-  "sig": "MEUCIQDWMIb5wzrJtXPGiAAiOugzzxII48xqHFlcccnBgDyLZQIgWgB65p4Pm5i4BFbKJ21p7v3BNf3F73Et1N7Z4maORsw=",
-  "changelog": "MQTT-Befehlskanal von HA: Hub abonniert realmote/<id>/cmd, Befehl 'alloff' -> alle AV-Geraete aus (ersetzt Harmony im Gute-Nacht-Skript). Thread-safe via Flag im Hauptloop."
+  "sig": "MEUCIQDuiFGs8dc9cvKg8rxuX1GEjveAn5GAmT7SosU5brerpQIgPTsa1zKcf4TipszmZUFeBIDxmeJ6AAHWXNS150L0/m8=",
+  "changelog": "Fix gelegentlich verschluckte Tasten bei schnellem Tippen: nRF24-FIFO wird jetzt komplett pro Loop geleert (statt 1 Paket) + Loop-Takt 10ms->2ms. Kein Funkproblem."
 }

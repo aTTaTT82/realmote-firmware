@@ -1,8 +1,8 @@
 {
-  "version": "4.7.2",
-  "build": 492,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.7.2.bin",
-  "size": 1842512,
-  "sig": "MEUCIQDuiFGs8dc9cvKg8rxuX1GEjveAn5GAmT7SosU5brerpQIgPTsa1zKcf4TipszmZUFeBIDxmeJ6AAHWXNS150L0/m8=",
-  "changelog": "Fix gelegentlich verschluckte Tasten bei schnellem Tippen: nRF24-FIFO wird jetzt komplett pro Loop geleert (statt 1 Paket) + Loop-Takt 10ms->2ms. Kein Funkproblem."
+  "version": "4.10.0",
+  "build": 503,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.10.0.bin",
+  "size": 1829312,
+  "sig": "MEQCIH6/1SNDxc8wz+/cGz9Nem91A8Qi2CBvgSI6Sgw+14rSAiAEsc7+vpPoguXWRdNlpAil2a1cbiJfmBpvtIBb0LUh/g==",
+  "changelog": "Neue IR-Datenbank (Flipper-IRDB, ~8900 Geraete): lokaler Suchindex ohne API-Limit, Tasten vor Import testbar, Import als RAW-Timings (protokoll-unabhaengig: NEC/NECext/Samsung32/SIRC/RC5/RC6 + raw). Premium-Web-UI (Anthrazit/Alu) aus 4.9.x enthalten. Config laedt in <1s statt 6s (Lazy-Tabs + gebuendelte Chunks)."
 }

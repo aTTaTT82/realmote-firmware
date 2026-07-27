@@ -1,8 +1,8 @@
 {
-  "version": "4.10.0",
-  "build": 503,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.10.0.bin",
-  "size": 1829312,
-  "sig": "MEQCIH6/1SNDxc8wz+/cGz9Nem91A8Qi2CBvgSI6Sgw+14rSAiAEsc7+vpPoguXWRdNlpAil2a1cbiJfmBpvtIBb0LUh/g==",
-  "changelog": "Neue IR-Datenbank (Flipper-IRDB, ~8900 Geraete): lokaler Suchindex ohne API-Limit, Tasten vor Import testbar, Import als RAW-Timings (protokoll-unabhaengig: NEC/NECext/Samsung32/SIRC/RC5/RC6 + raw). Premium-Web-UI (Anthrazit/Alu) aus 4.9.x enthalten. Config laedt in <1s statt 6s (Lazy-Tabs + gebuendelte Chunks)."
+  "version": "4.10.1",
+  "build": 504,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.10.1.bin",
+  "size": 1829392,
+  "sig": "MEYCIQCm0Kw0DVTLYNbeHvO85dMA9vBJP4W4UG+gzBUV26VwcwIhAOJe/kiFiYDeb+Vatucm+9WBRL2SOKTrJhJtCWGh5mi/",
+  "changelog": "UI-Fix: Lange Geraetenamen in den IRDB-Suchergebnissen (und allen Code-Listen) brechen jetzt um statt rechts ueber den Rand zu ragen."
 }

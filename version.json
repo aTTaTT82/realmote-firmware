@@ -1,8 +1,8 @@
 {
-  "version": "4.10.2",
-  "build": 505,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.10.2.bin",
-  "size": 1829392,
-  "sig": "MEUCIAK6gwa+3Mlk+mJZVTlGyq14n1bJmEsyEpwJTYLU1iWPAiEAnKJIdhYmQIdXtOhtf3ZZlDu6/hVydVXqgtkHOk56S6U=",
-  "changelog": "Seitenwechsel am Handy jetzt schnell: Handy-Browser oeffnen Reserve-Verbindungen ohne Daten, die den Webserver bis 5 s blockierten. Wartezeit auf 0,4 s gesenkt (Remote<->Einstellungen fuehlt sich jetzt sofort an)."
+  "version": "4.11.0",
+  "build": 506,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.11.0.bin",
+  "size": 1829616,
+  "sig": "MEUCIFZw09DGdx7ePKyLlkxwfrjm1XLFhYawux6JcqcASIroAiEA1mBqqKlRU8Be5aflTgjxOOkOUb1K9HGOJGPYZ+RA5ho=",
+  "changelog": "Activities aus Home Assistant startbar: MQTT-Befehl activity:1..3 (+alloff) auf realmote/<id>/cmd; Announce enthaelt jetzt die Activity-Namen (acts) fuer die HA-Integration v0.6.0 (Activity-Knoepfe)."
 }

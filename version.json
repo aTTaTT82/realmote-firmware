@@ -1,8 +1,8 @@
 {
-  "version": "4.10.1",
-  "build": 504,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.10.1.bin",
+  "version": "4.10.2",
+  "build": 505,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.10.2.bin",
   "size": 1829392,
-  "sig": "MEYCIQCm0Kw0DVTLYNbeHvO85dMA9vBJP4W4UG+gzBUV26VwcwIhAOJe/kiFiYDeb+Vatucm+9WBRL2SOKTrJhJtCWGh5mi/",
-  "changelog": "UI-Fix: Lange Geraetenamen in den IRDB-Suchergebnissen (und allen Code-Listen) brechen jetzt um statt rechts ueber den Rand zu ragen."
+  "sig": "MEUCIAK6gwa+3Mlk+mJZVTlGyq14n1bJmEsyEpwJTYLU1iWPAiEAnKJIdhYmQIdXtOhtf3ZZlDu6/hVydVXqgtkHOk56S6U=",
+  "changelog": "Seitenwechsel am Handy jetzt schnell: Handy-Browser oeffnen Reserve-Verbindungen ohne Daten, die den Webserver bis 5 s blockierten. Wartezeit auf 0,4 s gesenkt (Remote<->Einstellungen fuehlt sich jetzt sofort an)."
 }

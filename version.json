@@ -1,8 +1,8 @@
 {
-  "version": "4.12.0",
-  "build": 507,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.12.0.bin",
-  "size": 1830240,
-  "sig": "MEYCIQCgF0OfZUN+sA3ahyeUTC7KwvM01tcxljKY+ylmDcSKRgIhANUxKDZ++Z3tqyb1/9igvz3rURE9D7+fB5yQB/L5qm+w",
-  "changelog": "Jede Fernbedienungs-Taste zusaetzlich als HA-Event: realmote/<id>/key = Tastenname (nur Druck-Flanke, kein Repeat-Flood; Tasten 1-6 behalten ihre eigenen button/hold-Events). Normale Tastenfunktion (IR/BLE/Activity) unveraendert. Fuer HA-Integration v0.7.0 (Event-Entities je Taste)."
+  "version": "4.13.0",
+  "build": 508,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.13.0.bin",
+  "size": 1830464,
+  "sig": "MEUCIH6VvDBP5ZsNKCZZ+hnAuLyql71fHo9JccXQVuOFTulRAiEAz035hvEa7lrtDf0R3wGtLmnqIgx0UmKQNu59ua/tU18=",
+  "changelog": "Einzelne Tasten aus HA ausfuehrbar: MQTT-Befehl key:<NAME> (z.B. key:PAUSE) auf realmote/<id>/cmd fuehrt die Taste Activity-bewusst aus - wie ein Druck auf der Fernbedienung. Fuer HA-Integration v0.8.0 (druckbare Tasten-Knoepfe, z.B. fuer Alexa-Routinen)."
 }

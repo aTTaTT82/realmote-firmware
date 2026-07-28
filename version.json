@@ -1,8 +1,8 @@
 {
-  "version": "4.14.0",
-  "build": 510,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.14.0.bin",
-  "size": 1836672,
-  "sig": "MEUCIQCWxkgJoCoNajGLxV2elOkSkC5fau1o4gj4SiWbnPGRCAIgKdY52i1+rtRJD/RbCQvYfR9vLPmuZxHnd4bn1mSVqc0=",
-  "changelog": "IRDB-Index haelt sich selbst aktuell: automatischer Download wenn er fehlt (frisches Geraet) und woechentliche Aktualisierung (NTP-Zeit, nur bei Funkruhe, nach Fehlschlag 6h Pause). Neue /health-Zeile zeigt Groesse + Alter des Index."
+  "version": "4.14.1",
+  "build": 511,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.14.1.bin",
+  "size": 1836688,
+  "sig": "MEYCIQDyLMziD6O/l/aAkeybU2ZuICC9vrPcM3xHX5zlGwAvwgIhAOMktIVazv/AQxQhGJOgsHex3bLDF3G77Xs0mi5cKIon",
+  "changelog": "Akku-Anzeige der Fernbedienung wird nur noch 1x pro Tag uebernommen (statt bei jedem Tastendruck) - keine Anzeige-Zappelei mehr, History = 1 Punkt/Tag (~50 Tage Verlauf). Akku-Badge auf der Remote-Seite bleibt dauerhaft sichtbar (vorher nur 5 min nach dem letzten Druck)."
 }

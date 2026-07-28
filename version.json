@@ -1,8 +1,9 @@
 {
   "version": "4.19.0",
-  "build": 526,
+  "build": 527,
   "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.0.bin",
-  "size": 1859200,
-  "sig": "MEUCIGqIyaRs/V2qoQOHaOCd85Glm05UqyyQzZFkmTG2evFdAiEArgUKhFilq6AC1Wa4qmj+FQvfAnjVgm1K+AlVYMKyGA4=",
-  "changelog": "RETTUNGSWEG: Der Update-Kanal kann sich nicht mehr selbst aussperren. Scheitert die gesicherte Verbindung am Speicher, holt der Hub Manifest und Firmware ueber einfaches HTTP - sicher, weil beides gegen den eingebauten Schluessel geprueft wird. Das Manifest ist dafuer neu mitsigniert (version.json.sig); ueber HTTP ist diese Signatur Pflicht, sonst waere ein Untergeschieben aelterer Firmware moeglich. Hinweis: Quellen, die HTTP auf HTTPS umleiten (z.B. GitHub), koennen den Rettungsweg nicht bedienen - dafuer eine HTTP-faehige Spiegel-Quelle unter /updateurl hinterlegen. Ausserdem: Speicherbudget wird jetzt beim Start gemessen und in /health ausgewiesen. Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
+  "size": 1859872,
+  "sig": "MEQCIDHUnKry+N+Uwsc+snRcIbhqrhXWNKNgN/HoikfE6WPzAiABSdUb32rS4vFo52LHZFcnamxthdohi/xi50tG6582Pw==",
+  "manifest_sig": "MEQCIHwuSPMYmieh22Pcmz6fJYQo/oXySsHkcjjxXHEbofyjAiAE9hozM6qC0+K1w7GI9DDFx3ZZ9qXQK+SU8gvDlNnu4g==",
+  "changelog": "RETTUNGSWEG: Der Update-Kanal kann sich nicht mehr selbst aussperren. Scheitert die gesicherte Verbindung am Speicher, holt der Hub Manifest und Firmware ueber einfaches HTTP - sicher, weil beides gegen den eingebauten Schluessel geprueft wird. Das Manifest traegt dafuer neu eine eingebettete Signatur; ueber HTTP ist sie Pflicht, sonst koennte jemand aeltere Firmware unterschieben. Hinweis: Quellen, die HTTP auf HTTPS umleiten (z.B. GitHub), koennen den Rettungsweg nicht bedienen - dafuer eine HTTP-faehige Spiegel-Quelle unter /updateurl hinterlegen. Ausserdem: Speicherbudget wird beim Start gemessen und in /health ausgewiesen. Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
 }

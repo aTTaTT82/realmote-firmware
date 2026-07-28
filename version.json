@@ -1,8 +1,8 @@
 {
-  "version": "4.14.2",
-  "build": 512,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.14.2.bin",
-  "size": 1836832,
-  "sig": "MEYCIQDDxjBNklZuWAXdXe1dgLxxgUUmUgg3/5KbsgrVhUdvEAIhAP3HHuIKy3hIvhsQgZdU3TKAJ26CBFDNlOGUpe/sBYqd",
-  "changelog": "UI-Fix Android-BLE-Tab am Handy: Tasten-Beschriftung brach pro Buchstabe um und die Auswahlfelder waren zu breit. Labels jetzt einzeilig, Auswahlfelder kompakt; Umbruch-Regel fuer lange Namen wirkt nur noch in den IRDB-/Code-Listen."
+  "version": "4.18.0",
+  "build": 523,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.18.0.bin",
+  "size": 1851584,
+  "sig": "MEUCIQDTiXOOduwXVpUinpEkeLrYX5wIExAjE0vkkgbVi0VEgwIgde91CPf0utIsHTaLJVopsBnFaH4v28NI2RKqdfDMdZU=",
+  "changelog": "EIN-CHIP-RELEASE: IR-Senden und -Empfangen laufen jetzt direkt auf dem ESP32-S3 (RMT, GPIO18/21), nRF24-IRQ auf GPIO8. D1-IR-Slave nur noch optionaler Fallback (Auto-Erkennung beim Boot). Activity-Tasten: kurz=Activity (beim Loslassen), lang=Geraete-Power/HOME. Vodafone-RCMM-Toggle-Fix (jeder Druck wirkt). Funkpaket-Puffer gegen verlorene Tasten waehrend IR-Sendungen. ACHTUNG: Setzt die Ein-Chip-Verdrahtung voraus (Draehte an GPIO 8/18/21) - NICHT auf unverdrahtete Hubs (z.B. rundes Testboard) einspielen!"
 }

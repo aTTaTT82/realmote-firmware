@@ -1,8 +1,8 @@
 {
-  "version": "4.13.0",
-  "build": 508,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.13.0.bin",
-  "size": 1830464,
-  "sig": "MEUCIH6VvDBP5ZsNKCZZ+hnAuLyql71fHo9JccXQVuOFTulRAiEAz035hvEa7lrtDf0R3wGtLmnqIgx0UmKQNu59ua/tU18=",
-  "changelog": "Einzelne Tasten aus HA ausfuehrbar: MQTT-Befehl key:<NAME> (z.B. key:PAUSE) auf realmote/<id>/cmd fuehrt die Taste Activity-bewusst aus - wie ein Druck auf der Fernbedienung. Fuer HA-Integration v0.8.0 (druckbare Tasten-Knoepfe, z.B. fuer Alexa-Routinen)."
+  "version": "4.13.1",
+  "build": 509,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.13.1.bin",
+  "size": 1831648,
+  "sig": "MEYCIQCUUwhmYP8/VExxX2Vi7Oyi9wph76gNHeu4jVzcoqde8gIhAPkRRIqdM2ON4jZ1RxYRXwLs09SebUhkpR89qnQ8TRAK",
+  "changelog": "Verschluckte Tasten (3 Ursachen behoben): 1) Akku-Historie schrieb Flash mitten in Tipp-Serien (jetzt nur bei Funkstille, max 1x/min). 2) Verlorenes Release-Paket blockierte den naechsten Tap derselben Taste (Stale-Heilung, 300ms-Regel). 3) Seiten/IRDB-Downloads machten den Hub funktaub (Funk wird jetzt waehrenddessen bedient). Neue Funk-Diagnose in /health."
 }

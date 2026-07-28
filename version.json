@@ -1,8 +1,8 @@
 {
-  "version": "4.18.1",
-  "build": 525,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.18.1.bin",
-  "size": 1854576,
-  "sig": "MEUCIQDRfujDYC38OapB/EYqES6vsSboUgHnWFBMX5FdMstDqwIgRgh9Ux44UtNRBBCgSP4/MMqj0KBqZGglQPwX9cPeOl4=",
-  "changelog": "Fix: Online-Update und IR-Datenbank scheiterten dauerhaft an einer zu streng eingestellten Speicher-Vorpruefung. Am Geraet gemessen: die sichere Verbindung gelingt bereits mit rund 34 KB, verlangt wurden 36 KB - mehr, als das Geraet je frei hat. Die Pruefung arbeitet jetzt mit gemessenen Werten. Der Update-Weg selbst hat gar keine Speicher-Schranke mehr: er ist der Rettungsweg des Geraets und darf sich nie selbst blockieren. Das irrefuehrende Neustart-Angebot ist entfernt - ein Neustart aendert an der Speicherlage nachweislich nichts. Setzt wie 4.18.0 die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
+  "version": "4.19.0",
+  "build": 526,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.0.bin",
+  "size": 1859200,
+  "sig": "MEUCIGqIyaRs/V2qoQOHaOCd85Glm05UqyyQzZFkmTG2evFdAiEArgUKhFilq6AC1Wa4qmj+FQvfAnjVgm1K+AlVYMKyGA4=",
+  "changelog": "RETTUNGSWEG: Der Update-Kanal kann sich nicht mehr selbst aussperren. Scheitert die gesicherte Verbindung am Speicher, holt der Hub Manifest und Firmware ueber einfaches HTTP - sicher, weil beides gegen den eingebauten Schluessel geprueft wird. Das Manifest ist dafuer neu mitsigniert (version.json.sig); ueber HTTP ist diese Signatur Pflicht, sonst waere ein Untergeschieben aelterer Firmware moeglich. Hinweis: Quellen, die HTTP auf HTTPS umleiten (z.B. GitHub), koennen den Rettungsweg nicht bedienen - dafuer eine HTTP-faehige Spiegel-Quelle unter /updateurl hinterlegen. Ausserdem: Speicherbudget wird jetzt beim Start gemessen und in /health ausgewiesen. Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
 }

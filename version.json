@@ -1,8 +1,8 @@
 {
-  "version": "4.14.1",
-  "build": 511,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.14.1.bin",
-  "size": 1836688,
-  "sig": "MEYCIQDyLMziD6O/l/aAkeybU2ZuICC9vrPcM3xHX5zlGwAvwgIhAOMktIVazv/AQxQhGJOgsHex3bLDF3G77Xs0mi5cKIon",
-  "changelog": "Akku-Anzeige der Fernbedienung wird nur noch 1x pro Tag uebernommen (statt bei jedem Tastendruck) - keine Anzeige-Zappelei mehr, History = 1 Punkt/Tag (~50 Tage Verlauf). Akku-Badge auf der Remote-Seite bleibt dauerhaft sichtbar (vorher nur 5 min nach dem letzten Druck)."
+  "version": "4.14.2",
+  "build": 512,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.14.2.bin",
+  "size": 1836832,
+  "sig": "MEYCIQDDxjBNklZuWAXdXe1dgLxxgUUmUgg3/5KbsgrVhUdvEAIhAP3HHuIKy3hIvhsQgZdU3TKAJ26CBFDNlOGUpe/sBYqd",
+  "changelog": "UI-Fix Android-BLE-Tab am Handy: Tasten-Beschriftung brach pro Buchstabe um und die Auswahlfelder waren zu breit. Labels jetzt einzeilig, Auswahlfelder kompakt; Umbruch-Regel fuer lange Namen wirkt nur noch in den IRDB-/Code-Listen."
 }

@@ -1,9 +1,9 @@
 {
-  "version": "4.19.1",
-  "build": 531,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.1.bin",
-  "size": 1865120,
-  "sig": "MEUCIQCuSwzN0FcxYQYbGH4f2Qn3wfo5NVjzPaeeAOVgrVDaeAIgCzYseV1eN46pWdB0F4EEb7S7RUOoHi91NlIhO1y1Km4=",
-  "manifest_sig": "MEYCIQCy0nwAYkMWNjBuxTmgimbW0TcXYzqfviqZ2Tvl0qzGFAIhAOb1IFFIgascsnw8D0WTGuiK5nH1GYHkDiIHlzZHVj2d",
-  "changelog": "Meldet die Build-Nummer im Geraete-Announce mit. Noetig fuer die Home-Assistant-Integration: ohne sie kann HA innerhalb einer Version (z.B. 4.19.0 Build 526 bis 530) nicht erkennen, dass ein Update bereitliegt, und wuerde faelschlich melden, alles sei aktuell. Sonst unveraendert zu 4.19.0 (Browser-Push, Speicherbremse). Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
+  "version": "4.19.2",
+  "build": 532,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.2.bin",
+  "size": 1749040,
+  "sig": "MEUCIQD+fotVKW5+pkuW6M5+Hia15QTd2gYvAwUb0IsaWXOYlQIgVFkCTdJO8k81nGYZ9saxXaIrUHNksVEqNMZu5C4Sunw=",
+  "manifest_sig": "MEUCIH0qrRmA3jMyTlbTXKyAYfRu0vqmbPOfBCKqvPsYYUMMAiEAvbhjvy+OJ/ta6lgQm9Nk0i3FmVoBL11Ikc8edJG/M+Y=",
+  "changelog": "Aufraeumen im Seitenaufbau: Der Web-Oberflaeche lag eine Eigenart zugrunde, die bei jedem Seitenaufruf rund 1400 unnoetige Speicher-Anforderungen ausgeloest hat - fuer Text, der ohnehin unveraenderlich im Speicher steht. Eine zusaetzliche Funktionsvariante nimmt solche Texte jetzt direkt entgegen. Ergebnis: 116 KB weniger Programmspeicher (1,86 MB auf 1,75 MB) und etwas mehr freier Arbeitsspeicher am Stueck. Die Oberflaeche selbst ist unveraendert - gleiche Seiten, gleiches Verhalten. Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
 }

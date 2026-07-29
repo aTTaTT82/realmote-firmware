@@ -1,9 +1,9 @@
 {
-  "version": "4.19.0",
-  "build": 530,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.0.bin",
-  "size": 1865088,
-  "sig": "MEUCIDcWWicMIDtYzAeFQTZOR3u2huK7Hoddnq+SW/VcJZyFAiEAjmDzrrzqOb1Fp7DBcWOmpBvhv1ZAEv5eyT+hVQIatX8=",
-  "manifest_sig": "MEUCIEAM6Ag10pNSV1FfF0opUMaCOtAK6wk0PM2wj8FozrTNAiEAxkZPmop9C52D2/f1j9XtNFk6Wj9a/Ij9leON+zDZm/4=",
-  "changelog": "BROWSER-PUSH: Wenn der Hub das Update nicht selbst laden kann, uebernimmt das Geraet, auf dem die Weboberflaeche offen ist - Handy oder PC laden ueber ihr eigenes TLS und schieben die Firmware ueber WLAN an den Hub. Bedienung unveraendert: gleiche zwei Knoepfe. Der Hub prueft Signatur und Downgrade-Sperre wie bisher, untergeschoben werden kann nichts. Der frueher eingebaute automatische Rueckfall auf unverschluesseltes HTTP ist wieder RAUS - er konnte nie funktionieren, weil GitHub HTTP auf HTTPS umleitet. Eine ausdruecklich als http:// hinterlegte eigene Quelle wird weiterhin bedient. Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
+  "version": "4.19.1",
+  "build": 531,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.1.bin",
+  "size": 1865120,
+  "sig": "MEUCIQCuSwzN0FcxYQYbGH4f2Qn3wfo5NVjzPaeeAOVgrVDaeAIgCzYseV1eN46pWdB0F4EEb7S7RUOoHi91NlIhO1y1Km4=",
+  "manifest_sig": "MEYCIQCy0nwAYkMWNjBuxTmgimbW0TcXYzqfviqZ2Tvl0qzGFAIhAOb1IFFIgascsnw8D0WTGuiK5nH1GYHkDiIHlzZHVj2d",
+  "changelog": "Meldet die Build-Nummer im Geraete-Announce mit. Noetig fuer die Home-Assistant-Integration: ohne sie kann HA innerhalb einer Version (z.B. 4.19.0 Build 526 bis 530) nicht erkennen, dass ein Update bereitliegt, und wuerde faelschlich melden, alles sei aktuell. Sonst unveraendert zu 4.19.0 (Browser-Push, Speicherbremse). Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
 }

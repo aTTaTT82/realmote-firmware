@@ -1,9 +1,9 @@
 {
-  "version": "4.19.2",
-  "build": 532,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.2.bin",
-  "size": 1749040,
-  "sig": "MEUCIQD+fotVKW5+pkuW6M5+Hia15QTd2gYvAwUb0IsaWXOYlQIgVFkCTdJO8k81nGYZ9saxXaIrUHNksVEqNMZu5C4Sunw=",
-  "manifest_sig": "MEUCIH0qrRmA3jMyTlbTXKyAYfRu0vqmbPOfBCKqvPsYYUMMAiEAvbhjvy+OJ/ta6lgQm9Nk0i3FmVoBL11Ikc8edJG/M+Y=",
-  "changelog": "Aufraeumen im Seitenaufbau: Der Web-Oberflaeche lag eine Eigenart zugrunde, die bei jedem Seitenaufruf rund 1400 unnoetige Speicher-Anforderungen ausgeloest hat - fuer Text, der ohnehin unveraenderlich im Speicher steht. Eine zusaetzliche Funktionsvariante nimmt solche Texte jetzt direkt entgegen. Ergebnis: 116 KB weniger Programmspeicher (1,86 MB auf 1,75 MB) und etwas mehr freier Arbeitsspeicher am Stueck. Die Oberflaeche selbst ist unveraendert - gleiche Seiten, gleiches Verhalten. Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
+  "version": "4.19.7",
+  "build": 537,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.7.bin",
+  "size": 1752416,
+  "sig": "MEUCIQCj7a4FMP/lTZ5n0vo68lO7TwS0VmK24g7VwR/YJYpsnAIgDSaTj4AOHdJ3cDepOs2q4rY8EGuz1woQFW/zLY+CnsA=",
+  "manifest_sig": "MEQCIDhOmLaOagNGk5f62UULeTzb9z48sgNBu0oDyV/ZNOWpAiBgcMeD351PSmRK2PhLT/4pL3EyK1Q4rGhuI/ei0mBOJQ==",
+  "changelog": "Zuverlaessigkeit und Diagnose. Behoben: Der Hub war beim Verlassen der Android-TV-Aktivitaet 350 ms lang funktaub, wodurch Tastendruecke verloren gehen konnten (gemessen: laengste Funkpause 456 ms, jetzt 67 ms); der Paketpuffer fasst nun 24 statt 10 Pakete. Die Bluetooth-Tastatur schickt statt sechs nur noch zwei Meldungen je Tastendruck - identische Wiederholungen bringen dem Fernseher nichts, belegen aber die Sendewarteschlange; kurze Anschlaege werden auf 120 ms gestreckt und die Verbindungsparameter aktiv angefordert (15-30 ms, kein Ueberspringen). Neu zur Fehlersuche: GET /rflog zeigt die zuletzt empfangenen Funkpakete, die Bluetooth-Verbindungsparameter sowie Zaehler fuer verworfene Pakete und Puffer-Hoechststand. Hinweis: Die Ursache zeitweise verschluckter Tasten lag NICHT im Hub, sondern in der Fernbedienung (Firmware v3.2 noetig, siehe Doku). Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
 }

@@ -1,9 +1,9 @@
 {
-  "version": "4.19.7",
-  "build": 537,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.7.bin",
-  "size": 1752416,
-  "sig": "MEUCIQCj7a4FMP/lTZ5n0vo68lO7TwS0VmK24g7VwR/YJYpsnAIgDSaTj4AOHdJ3cDepOs2q4rY8EGuz1woQFW/zLY+CnsA=",
-  "manifest_sig": "MEQCIDhOmLaOagNGk5f62UULeTzb9z48sgNBu0oDyV/ZNOWpAiBgcMeD351PSmRK2PhLT/4pL3EyK1Q4rGhuI/ei0mBOJQ==",
-  "changelog": "Zuverlaessigkeit und Diagnose. Behoben: Der Hub war beim Verlassen der Android-TV-Aktivitaet 350 ms lang funktaub, wodurch Tastendruecke verloren gehen konnten (gemessen: laengste Funkpause 456 ms, jetzt 67 ms); der Paketpuffer fasst nun 24 statt 10 Pakete. Die Bluetooth-Tastatur schickt statt sechs nur noch zwei Meldungen je Tastendruck - identische Wiederholungen bringen dem Fernseher nichts, belegen aber die Sendewarteschlange; kurze Anschlaege werden auf 120 ms gestreckt und die Verbindungsparameter aktiv angefordert (15-30 ms, kein Ueberspringen). Neu zur Fehlersuche: GET /rflog zeigt die zuletzt empfangenen Funkpakete, die Bluetooth-Verbindungsparameter sowie Zaehler fuer verworfene Pakete und Puffer-Hoechststand. Hinweis: Die Ursache zeitweise verschluckter Tasten lag NICHT im Hub, sondern in der Fernbedienung (Firmware v3.2 noetig, siehe Doku). Setzt wie 4.18.x die Ein-Chip-Verdrahtung voraus (GPIO 8/18/21)."
+  "version": "4.20.0",
+  "build": 538,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.20.0.bin",
+  "size": 1750400,
+  "sig": "MEQCIFQR6ETF6+sko3qk/OOw4wW0lf9HMtLQKzPxtlhZe/6iAiBaOr8VKgnsHzVry2Zy1+dWmg0q7d63QrEtzXjnrSwU6A==",
+  "manifest_sig": "MEQCID2jxis0dUDPvGGATcsIMlfQCbGoz1PynIle5Lig4dooAiAWDtF7vZrBQKqzGzDiX9xjp4SFh2Bs5aqb27O+Vb1shA==",
+  "changelog": "D1-Slave ganz entfernt: Lernen legt bei Protokollen ohne Encoder RAW-Timings ab (jede lernbare Taste ist auch sendbar), zweiter Sendeweg raus, GPIO 4/5 frei, ~600 ms schnellerer Start. Was nicht gesendet werden kann, ist jetzt ein sichtbarer Fehler statt Stille."
 }

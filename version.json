@@ -1,9 +1,9 @@
 {
-  "version": "4.20.0",
-  "build": 538,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.20.0.bin",
-  "size": 1750400,
-  "sig": "MEQCIFQR6ETF6+sko3qk/OOw4wW0lf9HMtLQKzPxtlhZe/6iAiBaOr8VKgnsHzVry2Zy1+dWmg0q7d63QrEtzXjnrSwU6A==",
-  "manifest_sig": "MEQCID2jxis0dUDPvGGATcsIMlfQCbGoz1PynIle5Lig4dooAiAWDtF7vZrBQKqzGzDiX9xjp4SFh2Bs5aqb27O+Vb1shA==",
-  "changelog": "D1-Slave ganz entfernt: Lernen legt bei Protokollen ohne Encoder RAW-Timings ab (jede lernbare Taste ist auch sendbar), zweiter Sendeweg raus, GPIO 4/5 frei, ~600 ms schnellerer Start. Was nicht gesendet werden kann, ist jetzt ein sichtbarer Fehler statt Stille."
+  "version": "4.19.7",
+  "build": 537,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.7.bin",
+  "size": 1752416,
+  "sig": "MEYCIQDjEUIirSrxCyY7lpb0WYEt9iwtUGBMXJYbQmDfYB5l5QIhAIG0ZpjdLw6/pEB/Ea5BB4Tk5o/bA6A+GATFZW92JX+6",
+  "manifest_sig": "MEUCIQCC5h1ahEaGXZ5f2J6ApkUXoTWNYJDybrP7qmt+lj0PSAIgdnUt3U4XeCkBrcDvY+DQrNS5Q4s3AvfW4fsmStkJeRI=",
+  "changelog": "Rueckrollung auf 4.19.7 (Stand vor dem D1-Umbau)"
 }

@@ -1,9 +1,9 @@
 {
-  "version": "4.27.2",
-  "build": 555,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.27.2.bin",
-  "size": 1793072,
-  "sig": "MEQCIFPTCfi2/DqJT7+jBIi9tq8cGDoOCRDeIpDeqIIVKQBdAiBuC+of2XIY4gRTL3jdPjE91VGPAlamcIr4bAJHQCt+mw==",
-  "manifest_sig": "MEUCIQC0x1Rqe6jOTdzl+9sKCSAJ/r5Mbe+19ICVu1Lq1wip0wIgK7Z72jRfvd8P7dUaCXvC8DcwV0s2UkVeEr6U+99MlQU=",
-  "changelog": "Firmware fuer die Fernbedienung wird jetzt signiert uebertragen: der Hub nimmt nur noch signierte Pakete (.rmf) an und prueft sie beim Hochladen UND vor jedem Senden -- mit demselben Schluessel wie seine eigene Firmware."
+  "version": "4.28.0",
+  "build": 556,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.28.0.bin",
+  "size": 1793696,
+  "sig": "MEYCIQCZE9TkyWGd1ZdGDgzWvX0pFAz6jHzuYKVPpqXWZfCo9gIhAKpYmMGnkIXwXmIF3Z1PTycx3YeAUlrXtMqDyA7EmdXs",
+  "manifest_sig": "MEQCIEwRfaxicjV6+1PyWI3SbuuTVAGTgRlol5DB4tLInmAUAiB/fswB6POkikdauC9CzooZVIkZ2VUJgzhWylgIUYKnrw==",
+  "changelog": "Lebenszeichen der Fernbedienung sichtbar (Gegenstueck zu Remote v3.8): die Remote bleibt nach dem letzten Druck 15 s statt 0,8 s wach und sendet dabei jede Sekunde ein Lebenszeichen. Der Hub zaehlt es unter /health, statt es nur zu verwerfen. Kein Eingriff in die Tastenverarbeitung."
 }

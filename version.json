@@ -1,9 +1,9 @@
 {
-  "version": "4.26.1",
-  "build": 552,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.26.1.bin",
-  "size": 1788896,
-  "sig": "MEUCIQDuHMcoR9UR4hnqtRQ1lYlTmj+pw+t7+Ebz74ZvQKLLRwIgfYNDimlayRndA/54SqWbWWJqsV7SAAqOEmpjUFNsGdg=",
-  "manifest_sig": "MEUCIDov8ygTr0r8aVBTZ/gvWoFGCrTvfvYPAcQcxo2V2irpAiEA5dsv9S+1L57DV+ow6LWqJk9dkcDJRRd/WC1SKcHcq0g=",
-  "changelog": "BLE: der Fernseher verbindet sich nach einem Neustart des Hubs wieder von selbst. Die Verbindungsparameter werden jetzt erst angefordert, wenn die Strecke verschluesselt ist -- vorher liefen sie mitten in die Sicherungsaushandlung und die Verbindung starb nach 20 Sekunden. ACHTUNG: einmal neu koppeln noetig (Secure Connections). Ausserdem: Funk-Update der Fernbedienung, Anlernen im Assistenten und in den Einstellungen."
+  "version": "4.27.2",
+  "build": 555,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.27.2.bin",
+  "size": 1793072,
+  "sig": "MEQCIFPTCfi2/DqJT7+jBIi9tq8cGDoOCRDeIpDeqIIVKQBdAiBuC+of2XIY4gRTL3jdPjE91VGPAlamcIr4bAJHQCt+mw==",
+  "manifest_sig": "MEUCIQC0x1Rqe6jOTdzl+9sKCSAJ/r5Mbe+19ICVu1Lq1wip0wIgK7Z72jRfvd8P7dUaCXvC8DcwV0s2UkVeEr6U+99MlQU=",
+  "changelog": "Firmware fuer die Fernbedienung wird jetzt signiert uebertragen: der Hub nimmt nur noch signierte Pakete (.rmf) an und prueft sie beim Hochladen UND vor jedem Senden -- mit demselben Schluessel wie seine eigene Firmware."
 }

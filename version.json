@@ -1,9 +1,9 @@
 {
-  "version": "4.28.0",
-  "build": 556,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.28.0.bin",
-  "size": 1793696,
-  "sig": "MEYCIQCZE9TkyWGd1ZdGDgzWvX0pFAz6jHzuYKVPpqXWZfCo9gIhAKpYmMGnkIXwXmIF3Z1PTycx3YeAUlrXtMqDyA7EmdXs",
-  "manifest_sig": "MEQCIEwRfaxicjV6+1PyWI3SbuuTVAGTgRlol5DB4tLInmAUAiB/fswB6POkikdauC9CzooZVIkZ2VUJgzhWylgIUYKnrw==",
-  "changelog": "Lebenszeichen der Fernbedienung sichtbar (Gegenstueck zu Remote v3.8): die Remote bleibt nach dem letzten Druck 15 s statt 0,8 s wach und sendet dabei jede Sekunde ein Lebenszeichen. Der Hub zaehlt es unter /health, statt es nur zu verwerfen. Kein Eingriff in die Tastenverarbeitung."
+  "version": "4.29.0",
+  "build": 557,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.29.0.bin",
+  "size": 1801632,
+  "sig": "MEQCID1iz2kyUdd/hL8iyqVE94FtEdIQh3OfwUQ7sqo9f15gAiBnMa7mkEdfzceSOIcYrLzg0kTusGtbJ12PmgIBcfaHlQ==",
+  "manifest_sig": "MEUCIFT6I8k79xUWQw70qy/aApR+Z0n/jQyHbbVqSaejdBEmAiEApe3okab6+lW7A9MahEzDziluzTgQjs9zc/7DFxjpNgE=",
+  "changelog": "Der Hub sieht taeglich selbst nach, welche Fernbedienungs-Firmware veroeffentlicht ist, und zeigt sie zusammen mit der laufenden Version an (Remote v3.9 meldet sie). Ein Knopf holt und stellt bereit. Manifest-Parser 1024 -> 2048 Byte."
 }

@@ -1,9 +1,9 @@
 {
-  "version": "4.24.0",
-  "build": 544,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.24.0.bin",
-  "size": 1777312,
-  "sig": "MEYCIQDzIivEZ8Pi7BK/pIRYuZaW/zs4caTSSke9OyGhVyDz7wIhAIbV782Acqj5wzZrZWIUyJNB4Q641zoIDc6U/5gW3Qrk",
-  "manifest_sig": "MEUCIEENuv2Qt0e47LUgtIJQiRJZ8ObaZIeHbc0n0gT7hwWXAiEAr15i97fWy0Isjppv19WrBLXDtdyC+lW3MHZDCCciMX4=",
-  "changelog": "Fernbedienungen: Anlernen im Einrichtungs-Assistenten und in den Einstellungen. Funk-Update der Fernbedienung -- nach dem Bereitstellen genuegt ein beliebiger Tastendruck, die Fernbedienung holt es sich selbst. Mindest-Akkustand 30 Prozent, Klartext-Meldung wenn sie ablehnt."
+  "version": "4.26.1",
+  "build": 552,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.26.1.bin",
+  "size": 1788896,
+  "sig": "MEUCIQDuHMcoR9UR4hnqtRQ1lYlTmj+pw+t7+Ebz74ZvQKLLRwIgfYNDimlayRndA/54SqWbWWJqsV7SAAqOEmpjUFNsGdg=",
+  "manifest_sig": "MEUCIDov8ygTr0r8aVBTZ/gvWoFGCrTvfvYPAcQcxo2V2irpAiEA5dsv9S+1L57DV+ow6LWqJk9dkcDJRRd/WC1SKcHcq0g=",
+  "changelog": "BLE: der Fernseher verbindet sich nach einem Neustart des Hubs wieder von selbst. Die Verbindungsparameter werden jetzt erst angefordert, wenn die Strecke verschluesselt ist -- vorher liefen sie mitten in die Sicherungsaushandlung und die Verbindung starb nach 20 Sekunden. ACHTUNG: einmal neu koppeln noetig (Secure Connections). Ausserdem: Funk-Update der Fernbedienung, Anlernen im Assistenten und in den Einstellungen."
 }

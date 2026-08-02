@@ -1,9 +1,9 @@
 {
-  "version": "4.21.0",
-  "build": 540,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.21.0.bin",
-  "size": 1754384,
-  "sig": "MEQCHweW7IonO+apgzO3fk+enHM+MPLQ8Z1jkJ+JPC3IXzACIQCUt7f3UdCniJnn6kVdBImXFbq84FsTJm+UVunbGoOhTQ==",
-  "manifest_sig": "MEYCIQDYM+zYG9nb9OSID64oAXYkBMs3ap3m7/ufAVtlOl2dKAIhAMoKKyG1MhiUkkkX4RHmevSzWbTlaCVVgJ1HvSNocJJl",
-  "changelog": "Mehrere Hubs in einem Haushalt: Hostname, BLE-Name, Einrichtungs-Hotspot und eine private Funkadresse werden aus der Werks-MAC abgeleitet. Bestehende Fernbedienungen laufen unveraendert weiter (zweite Funk-Pipe). Neuer mDNS-Dienst _realmote._tcp macht alle Hubs auffindbar. Enthaelt ausserdem 4.19.8: Tippen/Halten repariert (Ankunftszeit statt Verarbeitungszeit)."
+  "version": "4.22.1",
+  "build": 542,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.22.1.bin",
+  "size": 1757168,
+  "sig": "MEUCIQDlF9D9cmwVbHDjfYOeRgQuCxJOzpwfEXtBs0nY7UZkfQIgHsjYDhYJ/qWlnF4WJ+DZSvECCpXFOdoJkI477BWaGq8=",
+  "manifest_sig": "MEYCIQDpa6zrdkAs/OBYM5Iie63TFJzXGvitPUfKW3X7jpDKdwIhAKGg5GvlKco/WsghDaPlaO4F7O/pJPwfZISjimUKGpLI",
+  "changelog": "Anlernen einer Fernbedienung an DIESEN Hub (POST /pair, Griff ALLES AUS + STOP). Der Funk-Mitschnitt zeigt jetzt die Herkunft jedes Pakets: angelernt (private Adresse) oder Werk. Damit lassen sich mehrere Hubs und mehrere Fernbedienungen in einem Haushalt betreiben; Bestands-Fernbedienungen laufen unveraendert weiter."
 }

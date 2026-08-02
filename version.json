@@ -1,9 +1,9 @@
 {
-  "version": "4.22.1",
-  "build": 542,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.22.1.bin",
-  "size": 1757168,
-  "sig": "MEUCIQDlF9D9cmwVbHDjfYOeRgQuCxJOzpwfEXtBs0nY7UZkfQIgHsjYDhYJ/qWlnF4WJ+DZSvECCpXFOdoJkI477BWaGq8=",
-  "manifest_sig": "MEYCIQDpa6zrdkAs/OBYM5Iie63TFJzXGvitPUfKW3X7jpDKdwIhAKGg5GvlKco/WsghDaPlaO4F7O/pJPwfZISjimUKGpLI",
-  "changelog": "Anlernen einer Fernbedienung an DIESEN Hub (POST /pair, Griff ALLES AUS + STOP). Der Funk-Mitschnitt zeigt jetzt die Herkunft jedes Pakets: angelernt (private Adresse) oder Werk. Damit lassen sich mehrere Hubs und mehrere Fernbedienungen in einem Haushalt betreiben; Bestands-Fernbedienungen laufen unveraendert weiter."
+  "version": "4.24.0",
+  "build": 544,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.24.0.bin",
+  "size": 1777312,
+  "sig": "MEYCIQDzIivEZ8Pi7BK/pIRYuZaW/zs4caTSSke9OyGhVyDz7wIhAIbV782Acqj5wzZrZWIUyJNB4Q641zoIDc6U/5gW3Qrk",
+  "manifest_sig": "MEUCIEENuv2Qt0e47LUgtIJQiRJZ8ObaZIeHbc0n0gT7hwWXAiEAr15i97fWy0Isjppv19WrBLXDtdyC+lW3MHZDCCciMX4=",
+  "changelog": "Fernbedienungen: Anlernen im Einrichtungs-Assistenten und in den Einstellungen. Funk-Update der Fernbedienung -- nach dem Bereitstellen genuegt ein beliebiger Tastendruck, die Fernbedienung holt es sich selbst. Mindest-Akkustand 30 Prozent, Klartext-Meldung wenn sie ablehnt."
 }

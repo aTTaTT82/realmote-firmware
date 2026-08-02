@@ -1,11 +1,11 @@
 {
-  "version": "4.29.0",
-  "build": 557,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.29.0.bin",
-  "size": 1801632,
-  "sig": "MEQCID1iz2kyUdd/hL8iyqVE94FtEdIQh3OfwUQ7sqo9f15gAiBnMa7mkEdfzceSOIcYrLzg0kTusGtbJ12PmgIBcfaHlQ==",
-  "manifest_sig": "MEUCIFT6I8k79xUWQw70qy/aApR+Z0n/jQyHbbVqSaejdBEmAiEApe3okab6+lW7A9MahEzDziluzTgQjs9zc/7DFxjpNgE=",
-  "changelog": "Der Hub sieht taeglich selbst nach, welche Fernbedienungs-Firmware veroeffentlicht ist, und zeigt sie zusammen mit der laufenden Version an (Remote v3.9 meldet sie). Ein Knopf holt und stellt bereit. Manifest-Parser 1024 -> 2048 Byte.",
+  "version": "4.29.1",
+  "build": 558,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.29.1.bin",
+  "size": 1801680,
+  "sig": "MEQCIGM1tAjSF/zb6weFr0dS8zTSTw9fmv/bPfBWfYYsI4eYAiAkC9ozWoW+ZGNCAMD8fiye16tGCLp2gtPwYmoOlY/viw==",
+  "manifest_sig": "MEYCIQDxgHu4BDv+7oJWvE2RlDo77HuN2MwMQivAGg8AWk0JkAIhAMTjqH6Ulw1mZhjYDgnmf7t3TjjFGaG2XAiResk0IFoC",
+  "changelog": "Der Hub sieht taeglich selbst nach, welche Fernbedienungs-Firmware veroeffentlicht ist, und zeigt sie zusammen mit der laufenden Version an (Remote v3.9 meldet sie). Ein Knopf holt und stellt bereit.",
   "remote": {
     "version": "3.9",
     "code": 57,

@@ -5,5 +5,13 @@
   "size": 1801632,
   "sig": "MEQCID1iz2kyUdd/hL8iyqVE94FtEdIQh3OfwUQ7sqo9f15gAiBnMa7mkEdfzceSOIcYrLzg0kTusGtbJ12PmgIBcfaHlQ==",
   "manifest_sig": "MEUCIFT6I8k79xUWQw70qy/aApR+Z0n/jQyHbbVqSaejdBEmAiEApe3okab6+lW7A9MahEzDziluzTgQjs9zc/7DFxjpNgE=",
-  "changelog": "Der Hub sieht taeglich selbst nach, welche Fernbedienungs-Firmware veroeffentlicht ist, und zeigt sie zusammen mit der laufenden Version an (Remote v3.9 meldet sie). Ein Knopf holt und stellt bereit. Manifest-Parser 1024 -> 2048 Byte."
+  "changelog": "Der Hub sieht taeglich selbst nach, welche Fernbedienungs-Firmware veroeffentlicht ist, und zeigt sie zusammen mit der laufenden Version an (Remote v3.9 meldet sie). Ein Knopf holt und stellt bereit. Manifest-Parser 1024 -> 2048 Byte.",
+  "remote": {
+    "version": "3.9",
+    "code": 57,
+    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Remote-v3.9.rmf",
+    "size": 11124,
+    "changelog": "Die Fernbedienung meldet ihre Version an den Hub (einmal je Wachphase, reservierte ID, gleiche Paketgroesse). Dazu 15-s-Nachlauf und 1-Hz-Lebenszeichen aus v3.8."
+  },
+  "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE="
 }

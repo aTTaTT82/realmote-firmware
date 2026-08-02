@@ -1,11 +1,11 @@
 {
-  "version": "4.29.1",
-  "build": 558,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.29.1.bin",
-  "size": 1801680,
-  "sig": "MEQCIGM1tAjSF/zb6weFr0dS8zTSTw9fmv/bPfBWfYYsI4eYAiAkC9ozWoW+ZGNCAMD8fiye16tGCLp2gtPwYmoOlY/viw==",
-  "manifest_sig": "MEYCIQDxgHu4BDv+7oJWvE2RlDo77HuN2MwMQivAGg8AWk0JkAIhAMTjqH6Ulw1mZhjYDgnmf7t3TjjFGaG2XAiResk0IFoC",
-  "changelog": "Der Hub sieht taeglich selbst nach, welche Fernbedienungs-Firmware veroeffentlicht ist, und zeigt sie zusammen mit der laufenden Version an (Remote v3.9 meldet sie). Ein Knopf holt und stellt bereit.",
+  "version": "4.29.2",
+  "build": 559,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.29.2.bin",
+  "size": 1803472,
+  "sig": "MEQCHzjwo9mWEBURSpdJuxWqJx/v5vd7S/NUZgLYYq5Q3KgCIQC+Gu7KJhBtgmCljV7tMi6qgxWBwQbwU80YoqYwPcJnWA==",
+  "manifest_sig": "MEUCIQCoyDd7SksWIVAQdLfqFWS5161yptwdf7yt75Tr6ieoWQIgIdQNbks0j0f309GRND6cCYe5ZVkwgosU/AEF+zQjG8s=",
+  "changelog": "Die Oberflaeche zeigt jetzt, WELCHE Version der Fernbedienungs-Firmware im Hub bereitliegt, und warnt wenn sie aelter ist als die veroeffentlichte. Vorher konnte 'Update bereitstellen' stillschweigend ein veraltetes Paket verschicken.",
   "remote": {
     "version": "3.9",
     "code": 57,

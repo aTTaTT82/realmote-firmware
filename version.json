@@ -1,9 +1,9 @@
 {
-  "version": "4.19.7",
-  "build": 537,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.19.7.bin",
-  "size": 1752416,
-  "sig": "MEYCIQDjEUIirSrxCyY7lpb0WYEt9iwtUGBMXJYbQmDfYB5l5QIhAIG0ZpjdLw6/pEB/Ea5BB4Tk5o/bA6A+GATFZW92JX+6",
-  "manifest_sig": "MEUCIQCC5h1ahEaGXZ5f2J6ApkUXoTWNYJDybrP7qmt+lj0PSAIgdnUt3U4XeCkBrcDvY+DQrNS5Q4s3AvfW4fsmStkJeRI=",
-  "changelog": "Rueckrollung auf 4.19.7 (Stand vor dem D1-Umbau)"
+  "version": "4.21.0",
+  "build": 540,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.21.0.bin",
+  "size": 1754384,
+  "sig": "MEQCHweW7IonO+apgzO3fk+enHM+MPLQ8Z1jkJ+JPC3IXzACIQCUt7f3UdCniJnn6kVdBImXFbq84FsTJm+UVunbGoOhTQ==",
+  "manifest_sig": "MEYCIQDYM+zYG9nb9OSID64oAXYkBMs3ap3m7/ufAVtlOl2dKAIhAMoKKyG1MhiUkkkX4RHmevSzWbTlaCVVgJ1HvSNocJJl",
+  "changelog": "Mehrere Hubs in einem Haushalt: Hostname, BLE-Name, Einrichtungs-Hotspot und eine private Funkadresse werden aus der Werks-MAC abgeleitet. Bestehende Fernbedienungen laufen unveraendert weiter (zweite Funk-Pipe). Neuer mDNS-Dienst _realmote._tcp macht alle Hubs auffindbar. Enthaelt ausserdem 4.19.8: Tippen/Halten repariert (Ankunftszeit statt Verarbeitungszeit)."
 }

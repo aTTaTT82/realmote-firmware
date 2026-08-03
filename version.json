@@ -1,11 +1,11 @@
 {
-  "version": "4.30.0",
-  "build": 560,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.30.0.bin",
-  "size": 1809312,
-  "sig": "MEUCIQD+webwFN5/utXhlI3Kovmw2KBVKugbntaKia8d/S/vBwIgeuXcLOau1rDvM2EpqJs/VuX4DbsMapGd1cWle1aKWVE=",
-  "manifest_sig": "MEUCIQDk6ZKPMw2Vv0SLrgIG021HcRyeCWp/SBXSr11hU0iBZQIgb1hch3Th+X5zTnEdZocnhA5JeCSjv5l5CzXByenNyRg=",
-  "changelog": "MQTT-Aktionen jetzt 12 statt 6: je Taste eine fuer kurzes Tippen und eine fuer langes Halten. Vorher war nur der Kurz-Tipp frei belegbar. Alle zwoelf werden in EINEM Schreibvorgang gespeichert und danach gegengelesen; schlaegt das fehl, bleibt der alte Stand. Bestehende Konfigurationen laden unveraendert.",
+  "version": "4.30.1",
+  "build": 561,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.30.1.bin",
+  "size": 1809136,
+  "sig": "MEYCIQD6/nJVzdYUppkydFCglLug/6U2NwzEVBo1egf0Kd4W4wIhAMOQoL0B+xRTV2omBVFQD3Qwz+12AH3aOwa1s/4ItU8G",
+  "manifest_sig": "MEUCIFQBipGkh86zQe72f3+76NAau0JtlV5RN1p2pITmNnQIAiEAzWoZYT8o8Fx2f+Bjn9cBfQA1T1PqlxHZOhH2YCUsa14=",
+  "changelog": "Sofort-Fix zu 4.30.0: die Konfigurationsseite war unbedienbar. Beim Umbau einer ueber mehrere Zeilen verteilten JavaScript-Funktion blieben zwei Zeilen der alten Fassung stehen; ein ueberzaehliges } zerlegte den gesamten Skriptblock, sodass kein Navigationspunkt mehr reagierte.",
   "remote": {
     "version": "3.9",
     "code": 57,

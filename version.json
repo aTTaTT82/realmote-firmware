@@ -1,11 +1,11 @@
 {
-  "version": "4.30.1",
-  "build": 561,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.30.1.bin",
-  "size": 1809136,
-  "sig": "MEYCIQD6/nJVzdYUppkydFCglLug/6U2NwzEVBo1egf0Kd4W4wIhAMOQoL0B+xRTV2omBVFQD3Qwz+12AH3aOwa1s/4ItU8G",
-  "manifest_sig": "MEUCIFQBipGkh86zQe72f3+76NAau0JtlV5RN1p2pITmNnQIAiEAzWoZYT8o8Fx2f+Bjn9cBfQA1T1PqlxHZOhH2YCUsa14=",
-  "changelog": "Sofort-Fix zu 4.30.0: die Konfigurationsseite war unbedienbar. Beim Umbau einer ueber mehrere Zeilen verteilten JavaScript-Funktion blieben zwei Zeilen der alten Fassung stehen; ein ueberzaehliges } zerlegte den gesamten Skriptblock, sodass kein Navigationspunkt mehr reagierte.",
+  "version": "4.31.0",
+  "build": 562,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.31.0.bin",
+  "size": 1812896,
+  "sig": "MEYCIQCiHLyfP0LGYsclVsGRLjJxhAqUkX+An2foBmkf2yyaiAIhAMqhwaOPF+QzoHz+6kyBcIgo1hRMP4i2sT8dA8Zsv21b",
+  "manifest_sig": "MEYCIQDt7f2lMVzP0ZzweVaa5sw4yie5AhmiMpNTkL59VzhGEQIhANhyTkzeuKVK6U4fqLL6/OOEG8u97TWth+YYshYYmiDr",
+  "changelog": "IR-Codes zur Probe senden: bei jedem angelernten Code steht neben dem Loesch-X ein blauer Knopf, der genau diesen Code rausschickt -- unabhaengig von der aktiven Activity. Vorher musste man zum Pruefen die Activity wechseln und die echte Taste druecken. Gilt fuer TV, Android TV, Receiver und Soundbar.",
   "remote": {
     "version": "3.9",
     "code": 57,

@@ -1,11 +1,11 @@
 {
-  "version": "4.29.2",
-  "build": 559,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.29.2.bin",
-  "size": 1803472,
-  "sig": "MEQCHzjwo9mWEBURSpdJuxWqJx/v5vd7S/NUZgLYYq5Q3KgCIQC+Gu7KJhBtgmCljV7tMi6qgxWBwQbwU80YoqYwPcJnWA==",
-  "manifest_sig": "MEUCIQCoyDd7SksWIVAQdLfqFWS5161yptwdf7yt75Tr6ieoWQIgIdQNbks0j0f309GRND6cCYe5ZVkwgosU/AEF+zQjG8s=",
-  "changelog": "Die Oberflaeche zeigt jetzt, WELCHE Version der Fernbedienungs-Firmware im Hub bereitliegt, und warnt wenn sie aelter ist als die veroeffentlichte. Vorher konnte 'Update bereitstellen' stillschweigend ein veraltetes Paket verschicken.",
+  "version": "4.30.0",
+  "build": 560,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.30.0.bin",
+  "size": 1809312,
+  "sig": "MEUCIQD+webwFN5/utXhlI3Kovmw2KBVKugbntaKia8d/S/vBwIgeuXcLOau1rDvM2EpqJs/VuX4DbsMapGd1cWle1aKWVE=",
+  "manifest_sig": "MEUCIQDk6ZKPMw2Vv0SLrgIG021HcRyeCWp/SBXSr11hU0iBZQIgb1hch3Th+X5zTnEdZocnhA5JeCSjv5l5CzXByenNyRg=",
+  "changelog": "MQTT-Aktionen jetzt 12 statt 6: je Taste eine fuer kurzes Tippen und eine fuer langes Halten. Vorher war nur der Kurz-Tipp frei belegbar. Alle zwoelf werden in EINEM Schreibvorgang gespeichert und danach gegengelesen; schlaegt das fehl, bleibt der alte Stand. Bestehende Konfigurationen laden unveraendert.",
   "remote": {
     "version": "3.9",
     "code": 57,

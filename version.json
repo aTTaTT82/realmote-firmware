@@ -1,11 +1,11 @@
 {
-  "version": "4.31.0",
-  "build": 562,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.31.0.bin",
-  "size": 1812896,
-  "sig": "MEYCIQCiHLyfP0LGYsclVsGRLjJxhAqUkX+An2foBmkf2yyaiAIhAMqhwaOPF+QzoHz+6kyBcIgo1hRMP4i2sT8dA8Zsv21b",
-  "manifest_sig": "MEYCIQDt7f2lMVzP0ZzweVaa5sw4yie5AhmiMpNTkL59VzhGEQIhANhyTkzeuKVK6U4fqLL6/OOEG8u97TWth+YYshYYmiDr",
-  "changelog": "IR-Codes zur Probe senden: bei jedem angelernten Code steht neben dem Loesch-X ein blauer Knopf, der genau diesen Code rausschickt -- unabhaengig von der aktiven Activity. Vorher musste man zum Pruefen die Activity wechseln und die echte Taste druecken. Gilt fuer TV, Android TV, Receiver und Soundbar.",
+  "version": "4.33.0",
+  "build": 572,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.33.0.bin",
+  "size": 1869776,
+  "sig": "MEUCIQDpNsPNJYGKkR2Ij6+fys+/4rBz7HqMg9ktQuLmLAPtrgIgDcBok5IQVrNJd0iDDSA/JhsPRxMg72BrJQUtq38FvQM=",
+  "manifest_sig": "MEUCICybr6w4frP3hj4l9vNxefK7reeJ0WAkrExyLAJULv24AiEAng4fhJlqt5n9z5gcPjRyfZXDcGMvgU1TcXpqGLAQsuI=",
+  "changelog": "Empfang UND Reaktion laufen jetzt in eigenen Tasks -- der Hub verliert keinen Tastendruck mehr und reagiert weiter, egal was ihn gerade blockiert. An echter Hardware abgenommen: waehrend einer 84 Sekunden langen Blockade kamen 169 Funkpakete an, keines ging verloren, und die Befehle wurden waehrenddessen ausgefuehrt. Zusaetzlich: die TLS-Verschluesselung liegt jetzt im PSRAM, wodurch sich die freie Speicherreserve im Betrieb von 14 KB auf 58 KB vervierfacht hat. Die Speicherbremse prueft ab sofort den Betriebs-Tiefstand statt des Startwerts -- der hatte die Enge nie gezeigt. Neu: GET /rammap zeigt die Speicheraufteilung und beide Tasks.",
   "remote": {
     "version": "3.9",
     "code": 57,

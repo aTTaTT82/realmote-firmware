@@ -1,11 +1,11 @@
 {
-  "version": "4.42.0",
-  "build": 581,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.42.0.bin",
-  "size": 1892496,
-  "sig": "MEUCIFbZ1hMX/OJzzj/MlSjTi+f4UT12KbIBCm7WKbkeiXwVAiEA2n7di9wVvjgI5W7++XVDSmIXP+saQP0Asuk8OBTlffQ=",
-  "manifest_sig": "MEUCIQDLeYoJ2QMJKn0NK6V3OxRrwy2hq7wBrTTEJyUoUbERCQIgHmSIBCZ+wHUZ0tbpjo1mRe/bn5UdRoRCX2BlysBBLVs=",
-  "changelog": "Matter-Statusbeweis kausal (Statusgeneration), signierte Update- und Fernbedienungs-Kette bei jedem Transport verlangt, gehaertete Produktions- und Release-Werkzeuge. An echter Hardware abgenommen: Flash, C6-Kopplung ueberlebt, Power-Cycle, 30 Minuten stabil.",
+  "version": "4.43.0",
+  "build": 582,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.43.0.bin",
+  "size": 1892816,
+  "sig": "MEYCIQD1lE0u6smxiFcCn+pSwJamDtvqygDNAKczDNrdrUxCNgIhAMsO3DhzSEigat1gq3UUxbSYx7vj4HNczZjZge+uOXmw",
+  "manifest_sig": "MEQCIFj9HrDy46PS9tLymrbQxV3MKr42FhGQDLyXfdRM04XcAiBxQ7GrNEch1jkp/vQvI2nIsjQdTIxnz0HPV2aHt5VTTw==",
+  "changelog": "Die Weboberflaeche behauptet nicht mehr, die Fernbedienungs-Firmware sei aktuell, wenn der Hub sie nach einem Neustart gar nicht kennt -- dann steht dort jetzt 'Stand unbekannt, einmal Taste druecken'. Dazu gehaertete Release-Werkzeuge: kausaler Matter-Statusbeweis, Pflicht-Signaturen bei jedem Transport und eine durchgehende Herkunftskette vom Bau bis zur Veroeffentlichung.",
   "remote": {
     "version": "3.9",
     "code": 57,

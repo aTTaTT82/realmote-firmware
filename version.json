@@ -1,11 +1,11 @@
 {
-  "version": "4.43.0",
-  "build": 582,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.43.0.bin",
-  "size": 1892816,
-  "sig": "MEYCIQD1lE0u6smxiFcCn+pSwJamDtvqygDNAKczDNrdrUxCNgIhAMsO3DhzSEigat1gq3UUxbSYx7vj4HNczZjZge+uOXmw",
-  "manifest_sig": "MEQCIFj9HrDy46PS9tLymrbQxV3MKr42FhGQDLyXfdRM04XcAiBxQ7GrNEch1jkp/vQvI2nIsjQdTIxnz0HPV2aHt5VTTw==",
-  "changelog": "Die Weboberflaeche behauptet nicht mehr, die Fernbedienungs-Firmware sei aktuell, wenn der Hub sie nach einem Neustart gar nicht kennt -- dann steht dort jetzt 'Stand unbekannt, einmal Taste druecken'. Dazu gehaertete Release-Werkzeuge: kausaler Matter-Statusbeweis, Pflicht-Signaturen bei jedem Transport und eine durchgehende Herkunftskette vom Bau bis zur Veroeffentlichung.",
+  "version": "4.44.0",
+  "build": 583,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.44.0.bin",
+  "size": 1892624,
+  "sig": "MEUCIQCgPLlkYzTOj2vr45Ykv3PBt9PK0HHuFEbR/PEpSNhX8AIgPrd2khd4qNhlmtKT92ZdOvIgZ1Cu4e/LGtlL12Nk+HY=",
+  "manifest_sig": "MEUCIQCGALKU8+dBRo+3UYftVA4W0ykgxtfqcM1SvG522647OQIgcBXh2wHxftTSciIkkIZbX6T5r5nJrbH4/ojWAk+7X30=",
+  "changelog": "Der D1-Mini-IR-Slave ist vollstaendig entfernt: der Hub sendet und empfaengt IR ausschliesslich selbst (S3-RMT, GPIO18/21). Nicht direkt codierbare Protokolle werden beim Lernen als Roh-Timings gespeichert (auch Soundbar-Tasten), gespeicherte Altwerte ohne Roh-Timings melden ehrlich 'neu lernen erforderlich', und jede Sendung meldet nur dann Erfolg, wenn sie wirklich abgeschlossen wurde. GPIO4/5 sind frei.",
   "remote": {
     "version": "3.9",
     "code": 57,

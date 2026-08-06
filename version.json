@@ -1,11 +1,11 @@
 {
-  "version": "4.46.0",
-  "build": 585,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.46.0.bin",
-  "size": 1892976,
-  "sig": "MEUCIGROcZ5SGJmLtjpyVk2Gp4wV5ZUMEz0XCyEnhC/gcq0bAiEA8hWvHqLkJZ1LZA4H+aoutPzECRpC/0z99x6wEzd9Nm8=",
-  "manifest_sig": "MEUCIQDBDoe65aUuv1AN822YuIU5WV0TbTc9Ut9WfypK76K4VAIgVMvYWb5ErwkmvOmpUhklu/Pqx+cBX4osqHqtUzVFUn0=",
-  "changelog": "IR-Mapper schneller: Vodafone reagiert auf den ersten Funk-Frame (RCMM-Bit-30-Maskierung), Sendeverzoegerung nach Fremd-Burst auf gemessene 180 ms gesenkt, Rampensperre einstellbar (Default 250 ms).",
+  "version": "4.47.0",
+  "build": 586,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.47.0.bin",
+  "size": 1900928,
+  "sig": "MEUCIA6OHkFrs7AR/gVQtS7ptQ2h4A6luApsSzQwoTQXc771AiEAs+9zMPSizut4LWKfHxiJYNI0VludRFXcPvhOnljoqhc=",
+  "manifest_sig": "MEQCIBHpsp0IGSggxaiXJKGwiG8jg8q9pQDqnoWIr5wLWbBUAiAkMR5Gu/4hN2lAW0M0n+RTttZleBi6iNNfp7x9Ug8LLg==",
+  "changelog": "Der C6 haengt jetzt am Hub-Update-Kanal: c6-Block im Manifest, Boot-Fenster-Nachzug nach jedem Neustart, /c6update + /c6latest. Ein Geraet, ein Update.",
   "remote": {
     "version": "3.9",
     "code": 57,

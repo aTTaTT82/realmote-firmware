@@ -13,5 +13,13 @@
     "size": 11124,
     "changelog": "Die Fernbedienung meldet ihre Version an den Hub (einmal je Wachphase, reservierte ID, gleiche Paketgroesse). Dazu 15-s-Nachlauf und 1-Hz-Lebenszeichen aus v3.8."
   },
-  "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE="
+  "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE=",
+  "c6": {
+    "version": "v0.20",
+    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.20-app.bin",
+    "size": 2562304,
+    "sig": "MEQCIA3aroB6gIVifC500+XbxKnpDn9Z/mhU73Yi+VI5MBd7AiBYxowyS68ZJ0xnkojfdz99ttrZPJh45JsFDfg46t6y1A==",
+    "changelog": "Matter-Beiboot v0.20 (WLAN-Bauart) -- Bestandsstand, per SHA eingefroren, seit 06.08. auf Hardware."
+  },
+  "c6_sig": "MEUCIHjq9R9SCv+Ju16peMrek698aWuRc5jFMRomsHeT6B/LAiEApD36QyaedgGf80yQ8xCF6dDsALQ+mWLafwXGwUt0F9M="
 }

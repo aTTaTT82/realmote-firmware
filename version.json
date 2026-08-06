@@ -1,11 +1,11 @@
 {
-  "version": "4.44.0",
-  "build": 583,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.44.0.bin",
-  "size": 1892624,
-  "sig": "MEUCIQCgPLlkYzTOj2vr45Ykv3PBt9PK0HHuFEbR/PEpSNhX8AIgPrd2khd4qNhlmtKT92ZdOvIgZ1Cu4e/LGtlL12Nk+HY=",
-  "manifest_sig": "MEUCIQCGALKU8+dBRo+3UYftVA4W0ykgxtfqcM1SvG522647OQIgcBXh2wHxftTSciIkkIZbX6T5r5nJrbH4/ojWAk+7X30=",
-  "changelog": "Der D1-Mini-IR-Slave ist vollstaendig entfernt: der Hub sendet und empfaengt IR ausschliesslich selbst (S3-RMT, GPIO18/21). Nicht direkt codierbare Protokolle werden beim Lernen als Roh-Timings gespeichert (auch Soundbar-Tasten), gespeicherte Altwerte ohne Roh-Timings melden ehrlich 'neu lernen erforderlich', und jede Sendung meldet nur dann Erfolg, wenn sie wirklich abgeschlossen wurde. GPIO4/5 sind frei.",
+  "version": "4.46.0",
+  "build": 585,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.46.0.bin",
+  "size": 1892976,
+  "sig": "MEUCIGROcZ5SGJmLtjpyVk2Gp4wV5ZUMEz0XCyEnhC/gcq0bAiEA8hWvHqLkJZ1LZA4H+aoutPzECRpC/0z99x6wEzd9Nm8=",
+  "manifest_sig": "MEUCIQDBDoe65aUuv1AN822YuIU5WV0TbTc9Ut9WfypK76K4VAIgVMvYWb5ErwkmvOmpUhklu/Pqx+cBX4osqHqtUzVFUn0=",
+  "changelog": "IR-Mapper schneller: Vodafone reagiert auf den ersten Funk-Frame (RCMM-Bit-30-Maskierung), Sendeverzoegerung nach Fremd-Burst auf gemessene 180 ms gesenkt, Rampensperre einstellbar (Default 250 ms).",
   "remote": {
     "version": "3.9",
     "code": 57,

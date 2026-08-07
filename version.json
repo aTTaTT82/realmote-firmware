@@ -1,11 +1,11 @@
 {
-  "version": "4.47.0",
-  "build": 586,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.47.0.bin",
-  "size": 1900928,
-  "sig": "MEUCIA6OHkFrs7AR/gVQtS7ptQ2h4A6luApsSzQwoTQXc771AiEAs+9zMPSizut4LWKfHxiJYNI0VludRFXcPvhOnljoqhc=",
-  "manifest_sig": "MEQCIBHpsp0IGSggxaiXJKGwiG8jg8q9pQDqnoWIr5wLWbBUAiAkMR5Gu/4hN2lAW0M0n+RTttZleBi6iNNfp7x9Ug8LLg==",
-  "changelog": "Der C6 haengt jetzt am Hub-Update-Kanal: c6-Block im Manifest, Boot-Fenster-Nachzug nach jedem Neustart, /c6update + /c6latest. Ein Geraet, ein Update.",
+  "version": "4.48.0",
+  "build": 587,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.48.0.bin",
+  "size": 1890992,
+  "sig": "MEQCIAJerNkkCAXv5gpQJgjDH7ltv65BbQGxmKYxToHGr6x7AiBR0Ae92waRDTBNGhhsSiNTZjM16k9NQVb0H9KroqXYfQ==",
+  "manifest_sig": "MEUCIQDHmUiO+0A3Pd2fSUNLZRUd4bGSzzqbG+p9HaEWH3X8HAIgBw/BpVakC8cg20CjqLtk8XMFEYAySA0ogfoUPGlfTBM=",
+  "changelog": "Verbindungsweg-Auswahl (WLAN/Thread) entfernt: es gab nie ein Thread-Abbild. Border-Router-Suche, Wunschbauart und Umschaltknopf raus; der Einrichtungsassistent macht keine falsche Zusage mehr.",
   "remote": {
     "version": "3.9",
     "code": 57,

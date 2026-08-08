@@ -15,11 +15,11 @@
   },
   "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE=",
   "c6": {
-    "version": "v0.26",
-    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.26-app.bin",
-    "size": 2564720,
-    "sig": "MEQCIGdj1YI9l0MZ3goO8pmxiED8tStA4J8WLs2DrW3mZ1FEAiAHzTdHRV4sUFqri7bTroXwaPke10bwXMq87dXWfA7UCQ==",
-    "changelog": "Vier feste Medientasten in Alexa/Apple: Play/Pause, Lauter, Leiser, Stumm -- Activity-bewusst ueber den Hub."
+    "version": "v0.27",
+    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.27-app.bin",
+    "size": 2565152,
+    "sig": "MEUCIC6T5HY3ElbYRCxSrfB4D2HBG68IDwfISpeGJUebcjo6AiEA7JP+OuXiimZF9Sw3aqQ/1o6ly203a6hA6uQ5ZPl+KV8=",
+    "changelog": "Endpunktnamen werden nach dem Start erzwungen -- alte Namen aus dem NVS koennen die neuen nicht mehr ueberschreiben."
   },
-  "c6_sig": "MEYCIQCvJ03/UKcZCkB2v+yNGYx7gOTMxMuslzD3IR+4SneuMAIhAKilwylvR2231km9RdNttLUOC2NBCUtsrnAar6EGyYw2"
+  "c6_sig": "MEQCIFT3DG2mhNFrYcEPx24cmibMfy4EehVi2RRQYOMpGy3cAiBfB6PXUiX0QoP7/m3qQ9bP7LeOcS1YGZgTh0B/Mf1GyQ=="
 }

@@ -15,11 +15,11 @@
   },
   "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE=",
   "c6": {
-    "version": "v0.22",
-    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.22-app.bin",
-    "size": 2563360,
-    "sig": "MEUCIDq/ib8ADIqMiYJ7PTVXoavCUIj5umBtCnRBJ00VZ6M/AiEA7MFMoOkhI+EsyYATWKzlKosqlnebO8k4VDWEllnpLJs=",
-    "changelog": "Herstellername ist jetzt RealMote statt TEST_VENDOR; die Bruecke heisst RealMote Hub statt Geraet 1."
+    "version": "v0.23",
+    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.23-app.bin",
+    "size": 2563600,
+    "sig": "MEQCIGVmCeVxxoywB6VHEQlWDR8xMKLPLHwHfDd81yzB3UFhAiBJhyCeKgljZ3hKc8MkCIPiFIa4omOY0QldHNYu6WE7Nw==",
+    "changelog": "Uebernimmt die vom Hub gemeldete Activity und zeigt sie in der App an; Echo-Sperre gegen Rueckkopplung."
   },
-  "c6_sig": "MEUCIQCgL2/fiYvuaelSZvsnj5CWHzJ0yxRWDsev8HqH9FtcCAIgEBAYlGz5OAKm9ccR3gFdkpN2rauHmX4J7E5SLdHtWrY="
+  "c6_sig": "MEQCIEXbOcM1hVLDfR2YlusyWdX85s0MNmNWoh5g5oDDBx2DAiBL6BFhRwf/QSqRBoEHBjJZPG+CjLcHJN1UnXjHPBIoOg=="
 }

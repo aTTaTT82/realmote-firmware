@@ -1,11 +1,11 @@
 {
-  "version": "4.49.0",
-  "build": 588,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.49.0.bin",
-  "size": 1891168,
-  "sig": "MEQCIAiaO/nAoGMwI1Xo4KH20ItBh+K5usqRT8ae1rtEHZXjAiAq6BKbIDB6w/2FRd/Rk4cQzSmZuGIM23l399bBpTDWuA==",
-  "manifest_sig": "MEQCIDMepJG3em5EycTGFT0NUQhRJGJy45Jgq0G5DCoSLVCzAiA7UHL9XAcHF86+z/FVoBIQE4uK6+Fbg7T/i2CEAVbTSA==",
-  "changelog": "Der Hub meldet dem Matter-Beiboot jetzt die laufende Activity (ist:<n>) -- Alexa/Apple zeigen den Zustand richtig an, auch nach einem C6-Neustart und bei Bedienung ueber Fernbedienung, Web-UI, MQTT oder IR.",
+  "version": "4.51.0",
+  "build": 590,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.51.0.bin",
+  "size": 1891344,
+  "sig": "MEUCIGBHIpmqz/lNWMnBTbOArPQPtQf9DuVdrqT7Hx47os0AAiEA+U7JU9Sxx/7XoauuXj/DHXPAXk776ZfCCette1FMntM=",
+  "manifest_sig": "MEUCIAVeiXd0RMnzj5KGRiObFfmtk+J5V5q8MNTFm0brtFbFAiEA5t2h+LLs/Ur3qAoP8ttsR4IYaU4b6YkvztDQr7ASwWA=",
+  "changelog": "Matter-Beiboot bekommt feste Medientasten (Play/Pause, Lauter, Leiser, Stumm), Activity-bewusst. Hub versteht key:<NAME> vom C6 mit Quittung und Dublettensperre. C6-Zeilenpuffer 96->160 (schnitt vorher still ab).",
   "remote": {
     "version": "3.9",
     "code": 57,

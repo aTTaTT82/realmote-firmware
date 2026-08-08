@@ -1,11 +1,11 @@
 {
-  "version": "4.48.0",
-  "build": 587,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.48.0.bin",
-  "size": 1890992,
-  "sig": "MEQCIAJerNkkCAXv5gpQJgjDH7ltv65BbQGxmKYxToHGr6x7AiBR0Ae92waRDTBNGhhsSiNTZjM16k9NQVb0H9KroqXYfQ==",
-  "manifest_sig": "MEUCIQDHmUiO+0A3Pd2fSUNLZRUd4bGSzzqbG+p9HaEWH3X8HAIgBw/BpVakC8cg20CjqLtk8XMFEYAySA0ogfoUPGlfTBM=",
-  "changelog": "Verbindungsweg-Auswahl (WLAN/Thread) entfernt: es gab nie ein Thread-Abbild. Border-Router-Suche, Wunschbauart und Umschaltknopf raus; der Einrichtungsassistent macht keine falsche Zusage mehr.",
+  "version": "4.49.0",
+  "build": 588,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.49.0.bin",
+  "size": 1891168,
+  "sig": "MEQCIAiaO/nAoGMwI1Xo4KH20ItBh+K5usqRT8ae1rtEHZXjAiAq6BKbIDB6w/2FRd/Rk4cQzSmZuGIM23l399bBpTDWuA==",
+  "manifest_sig": "MEQCIDMepJG3em5EycTGFT0NUQhRJGJy45Jgq0G5DCoSLVCzAiA7UHL9XAcHF86+z/FVoBIQE4uK6+Fbg7T/i2CEAVbTSA==",
+  "changelog": "Der Hub meldet dem Matter-Beiboot jetzt die laufende Activity (ist:<n>) -- Alexa/Apple zeigen den Zustand richtig an, auch nach einem C6-Neustart und bei Bedienung ueber Fernbedienung, Web-UI, MQTT oder IR.",
   "remote": {
     "version": "3.9",
     "code": 57,

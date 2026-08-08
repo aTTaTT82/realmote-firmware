@@ -15,11 +15,11 @@
   },
   "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE=",
   "c6": {
-    "version": "v0.23",
-    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.23-app.bin",
-    "size": 2563600,
-    "sig": "MEQCIGVmCeVxxoywB6VHEQlWDR8xMKLPLHwHfDd81yzB3UFhAiBJhyCeKgljZ3hKc8MkCIPiFIa4omOY0QldHNYu6WE7Nw==",
-    "changelog": "Uebernimmt die vom Hub gemeldete Activity und zeigt sie in der App an; Echo-Sperre gegen Rueckkopplung."
+    "version": "v0.26",
+    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.26-app.bin",
+    "size": 2564720,
+    "sig": "MEQCIGdj1YI9l0MZ3goO8pmxiED8tStA4J8WLs2DrW3mZ1FEAiAHzTdHRV4sUFqri7bTroXwaPke10bwXMq87dXWfA7UCQ==",
+    "changelog": "Vier feste Medientasten in Alexa/Apple: Play/Pause, Lauter, Leiser, Stumm -- Activity-bewusst ueber den Hub."
   },
-  "c6_sig": "MEQCIEXbOcM1hVLDfR2YlusyWdX85s0MNmNWoh5g5oDDBx2DAiBL6BFhRwf/QSqRBoEHBjJZPG+CjLcHJN1UnXjHPBIoOg=="
+  "c6_sig": "MEYCIQCvJ03/UKcZCkB2v+yNGYx7gOTMxMuslzD3IR+4SneuMAIhAKilwylvR2231km9RdNttLUOC2NBCUtsrnAar6EGyYw2"
 }

@@ -15,11 +15,11 @@
   },
   "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE=",
   "c6": {
-    "version": "v0.20",
-    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.20-app.bin",
-    "size": 2562304,
-    "sig": "MEQCIA3aroB6gIVifC500+XbxKnpDn9Z/mhU73Yi+VI5MBd7AiBYxowyS68ZJ0xnkojfdz99ttrZPJh45JsFDfg46t6y1A==",
-    "changelog": "Matter-Beiboot v0.20 (WLAN-Bauart) -- Bestandsstand, per SHA eingefroren, seit 06.08. auf Hardware."
+    "version": "v0.22",
+    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.22-app.bin",
+    "size": 2563360,
+    "sig": "MEUCIDq/ib8ADIqMiYJ7PTVXoavCUIj5umBtCnRBJ00VZ6M/AiEA7MFMoOkhI+EsyYATWKzlKosqlnebO8k4VDWEllnpLJs=",
+    "changelog": "Herstellername ist jetzt RealMote statt TEST_VENDOR; die Bruecke heisst RealMote Hub statt Geraet 1."
   },
-  "c6_sig": "MEUCIHjq9R9SCv+Ju16peMrek698aWuRc5jFMRomsHeT6B/LAiEApD36QyaedgGf80yQ8xCF6dDsALQ+mWLafwXGwUt0F9M="
+  "c6_sig": "MEUCIQCgL2/fiYvuaelSZvsnj5CWHzJ0yxRWDsev8HqH9FtcCAIgEBAYlGz5OAKm9ccR3gFdkpN2rauHmX4J7E5SLdHtWrY="
 }

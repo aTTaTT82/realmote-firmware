@@ -1,11 +1,11 @@
 {
-  "version": "4.51.0",
-  "build": 590,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.51.0.bin",
-  "size": 1891344,
-  "sig": "MEUCIGBHIpmqz/lNWMnBTbOArPQPtQf9DuVdrqT7Hx47os0AAiEA+U7JU9Sxx/7XoauuXj/DHXPAXk776ZfCCette1FMntM=",
-  "manifest_sig": "MEUCIAVeiXd0RMnzj5KGRiObFfmtk+J5V5q8MNTFm0brtFbFAiEA5t2h+LLs/Ur3qAoP8ttsR4IYaU4b6YkvztDQr7ASwWA=",
-  "changelog": "Matter-Beiboot bekommt feste Medientasten (Play/Pause, Lauter, Leiser, Stumm), Activity-bewusst. Hub versteht key:<NAME> vom C6 mit Quittung und Dublettensperre. C6-Zeilenpuffer 96->160 (schnitt vorher still ab).",
+  "version": "4.52.0",
+  "build": 591,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.52.0.bin",
+  "size": 1891456,
+  "sig": "MEUCIFV7RPlQ8M3bVWB1dcTaoOXw6ZuPCL+WP4cvUUAzpxEjAiEAqRmBWZxhxz9gST0NqhAcUB/V6NhqQzc5LwEIb+UNB4M=",
+  "manifest_sig": "MEUCIG4eaPYC7oZ8tIhR0shKv/YnPxztAZtoGhjXjb40/ZugAiEA7yrq2hLOgyTRhRZw1AAMqSmAf5XXDZnd8BfM2vYqwA4=",
+  "changelog": "Behebt: die neuen Matter-Medientasten kamen am Hub an, wurden aber nicht ausgefuehrt (Flag pendingKey fehlte). Zusaetzlich Namenspruefung gegen buttonNames wie beim MQTT-Weg.",
   "remote": {
     "version": "3.9",
     "code": 57,

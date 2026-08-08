@@ -1,11 +1,11 @@
 {
-  "version": "4.52.0",
-  "build": 591,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.52.0.bin",
+  "version": "4.55.0",
+  "build": 594,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.55.0.bin",
   "size": 1891456,
-  "sig": "MEUCIFV7RPlQ8M3bVWB1dcTaoOXw6ZuPCL+WP4cvUUAzpxEjAiEAqRmBWZxhxz9gST0NqhAcUB/V6NhqQzc5LwEIb+UNB4M=",
-  "manifest_sig": "MEUCIG4eaPYC7oZ8tIhR0shKv/YnPxztAZtoGhjXjb40/ZugAiEA7yrq2hLOgyTRhRZw1AAMqSmAf5XXDZnd8BfM2vYqwA4=",
-  "changelog": "Behebt: die neuen Matter-Medientasten kamen am Hub an, wurden aber nicht ausgefuehrt (Flag pendingKey fehlte). Zusaetzlich Namenspruefung gegen buttonNames wie beim MQTT-Weg.",
+  "sig": "MEUCIBbkJZbvUilyGC49g4BxtU0oOHh0v7ndaZgen/PMw0o9AiEA5P7ad+tUESNHUoXvI92Z7P6Q6hFOeyVq6QSZr08M6uQ=",
+  "manifest_sig": "MEQCIAv2MDXIIcM8NG9FOCArB5Sicz4RZzREMpze0zNnnYovAiAJc48qwRgoAzRyBfnhelczHWsWgjUjyuYr7a+cCAQoOg==",
+  "changelog": "Empfangspfad zurueck auf den bewaehrten Stand: das Ausblendfenster nach eigener IR-Sendung bleibt wie gehabt. Die Versuche 4.53/4.54 hatten die Bedienung verschlechtert.",
   "remote": {
     "version": "3.9",
     "code": 57,

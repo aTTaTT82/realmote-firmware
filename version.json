@@ -1,11 +1,11 @@
 {
-  "version": "4.57.0",
-  "build": 596,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.57.0.bin",
-  "size": 1891360,
-  "sig": "MEUCIDMAalOyTuQNgCc1lK6AtCAzUSyh0n5lO0uSRGY6/X/dAiEAt8dFrdRjhm8kd5XnbxmWlQOx8biXroyluAdgSX7R45Q=",
-  "manifest_sig": "MEUCIQCSynkWLbc5hPz3s6hUx7oa883DY40YYMWkqoUrZMvgugIgYl+OE+p2hOyQLuwGHv0QkYDPK7iWG4vMRcWRNq7s2ZY=",
-  "changelog": "Innerer Umbau: Tastenwuensche laufen ueber eine einzige Funktion, die Reihenfolge kann nicht mehr vergessen werden. Kein geaendertes Verhalten ausser: eine unbekannte Taste ueber die Web-Oberflaeche meldet jetzt sauber 400 statt still zu wirken.",
+  "version": "4.59.0",
+  "build": 598,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.59.0.bin",
+  "size": 1845456,
+  "sig": "MEUCIQCu4uxArPE1RGMp/jdp+e2QHGqXFKbCyRUXf5fuvMGE9gIgf1vVOjLw5U7K6prnj9ghtu/E4DpXtfhtGQZ14ZBzxH8=",
+  "manifest_sig": "MEUCIQCbP2XeBAf9LUHfhjx54iod5I4j7Sx8iCqOfp95zhcGsAIgZiHv9l1qa+LJnZondC9n1gFkBn5exLexF0nAJGf8jr4=",
+  "changelog": "Der IR-Mapper ist entfernt. Er verlangte, im selben Raum gleichzeitig IR zu empfangen und zu senden -- die fremde Fernbedienung blendet dabei das Zielgeraet. Anlernen, Empfang und Senden bleiben unveraendert. 45 KB Programm und 20 KB RAM frei.",
   "remote": {
     "version": "3.9",
     "code": 57,

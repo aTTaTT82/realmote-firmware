@@ -1,11 +1,11 @@
 {
-  "version": "4.60.7",
-  "build": 606,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.60.7.bin",
-  "size": 1904768,
-  "sig": "MEQCICQtEwVTA/Eyj68eToDUFzn4+X6/b+eom9Dffy5aVCMtAiBBKREZw1SuJRL97xhDELStuQNXts1ErfCr4CSqnfKvxg==",
-  "manifest_sig": "MEYCIQCRN7IQ7e6Og8LEg7VdXpoBNL7BelyfVZNaXUF85DB2sQIhAPkG6VguyL341Z30lDQ8e3X5j1PJqt1121mN0HDIB0MP",
-  "changelog": "Die Oberflaeche spricht Deutsch oder Englisch. Die Sprache waehlt man im Einrichtungs-Assistenten; sie ist danach die Vorgabe dieses Hubs und jederzeit unter Konfiguration -> System umschaltbar. Uebersetzt sind Assistent, Konfiguration, Fernbedienungsseite, Navigation, Statuszeile, Dateiauswahl und die Auswahllisten. Dazu: eine Taste je Zeile statt zweispaltiger Listen, und der Firmware-Status nennt die Version, statt sie unbekannt zu melden.",
+  "version": "4.60.11",
+  "build": 610,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.60.11.bin",
+  "size": 1936416,
+  "sig": "MEUCIHgnjcgrBC74TBmD9uNvQviiWxQ7cDgicDqrlCd88ejLAiEAnxS9BLwQSgpYx4ofc5cM7ZcIk9XSdHisJ6Zezzvi3p4=",
+  "manifest_sig": "MEUCIBEdb9lB6y80O9TM2vzwG74DBULzMf7i0Sknyh8eWINRAiEAh2+Et5KhTg/R4Oc62JeSfs8hdJw9FSYYzfgJ1GnCzZU=",
+  "changelog": "Die Oberflaeche ist jetzt wirklich durchgehend zweisprachig. Uebersetzt wurden der WLAN-Erstbildschirm samt Sprachwahl (vorher gab es vor der WLAN-Verbindung keinen Weg zu Englisch), beide IRDB-Ablaeufe im Assistenten, die RF24-Diagnose und alle Server-Antworten von Anlernen, Funkupdate, IR-Lernen und Matter -- daher kamen die Mischtexte. Berichtigt wurden dabei auch Aussagen, die in BEIDEN Sprachen falsch waren: der Upload verlangte eine .bin statt einer .rmf, der Matter-Reset sprach von einer statt allen Kopplungen, und der Webhook-Test meldete Erfolg, sobald der Auftrag nur in der Warteschlange lag. Die Vorgabenamen der Aktivitaeten folgen der Sprache, solange sie unveraendert sind.",
   "remote": {
     "version": "3.9",
     "code": 57,

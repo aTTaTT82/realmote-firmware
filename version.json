@@ -1,11 +1,11 @@
 {
-  "version": "4.62.1",
-  "build": 613,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.62.1.bin",
-  "size": 1985584,
-  "sig": "MEUCIB6dYJTMXo65PzP1+Hfm60UT+Wl/342ChebQgU4cT2aQAiEAx9yg4kS5Q3rUxmWkPUQJFYkOh7H326ZqsmJKEugFn38=",
-  "manifest_sig": "MEYCIQCJVNEz7/ahvxKNvrXuGfqSrwNoGQkkXpKJRqHZF0TgiwIhALn+mKvXPGdTdXpP841Qp6z0KD9KYDxLfHxXo0MyFycT",
-  "changelog": "Die Weboberflaeche sieht auf dem Home-Bildschirm jetzt aus wie eine App. Bisher lieferte der Hub unter /icon-192.png gar kein Bild, sondern eine Zeichenkette -- iPhone und Android zeigten deshalb ein Ersatzsymbol. Es gibt jetzt echte PNG-Symbole in den von iOS und Android erwarteten Groessen und sieben Startbilder gegen das kurze Weiss beim Starten. Am Ende der Einrichtung steht eine Anleitung, wie man RealMote auf den Home-Bildschirm legt; sie erkennt iPhone und Android und blendet sich aus, sobald es geschehen ist.",
+  "version": "4.63.0",
+  "build": 614,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.63.0.bin",
+  "size": 1988384,
+  "sig": "MEQCIARGXdT2dyLjBRLag95RMTM1Upd0/rhvLcm6J2wHXK/oAiA6QoAUjwCMjUDkV08TKGkEUy3pc2/1s5tYcGExVq+Z3Q==",
+  "manifest_sig": "MEUCICQSlTa9nBes44Kc40AIkEf5DgOys6t8dSTGX5hi2E79AiEA68jBKHILfL/GjAo9+OL46rh9HLIhr5H79P8qZxXdIbM=",
+  "changelog": "Die WLAN-Auswahl bei der Einrichtung zeigt jetzt an, welche Netze verschluesselt sind, und laesst bei offenen Netzen das Kennwortfeld weg. Die Verschluesselung wird dabei automatisch erkannt -- niemand muss eine Art auswaehlen. Netze, die mehrfach funken (Mesh oder zwei Baender), stehen nur noch einmal in der Liste, mit dem staerksten Signal. Wichtiger im Hintergrund: die Zugangsdaten werden nicht mehr direkt ueberschrieben, sondern erst daneben geschrieben, geprueft und dann umbenannt. Bricht das Speichern ab, gilt das bisherige Netz unveraendert weiter, statt dass der Hub im Einrichtungsmodus strandet.",
   "remote": {
     "version": "3.9",
     "code": 57,

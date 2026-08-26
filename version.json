@@ -1,11 +1,11 @@
 {
-  "version": "4.60.11",
-  "build": 610,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.60.11.bin",
-  "size": 1936416,
-  "sig": "MEUCIHgnjcgrBC74TBmD9uNvQviiWxQ7cDgicDqrlCd88ejLAiEAnxS9BLwQSgpYx4ofc5cM7ZcIk9XSdHisJ6Zezzvi3p4=",
-  "manifest_sig": "MEUCIBEdb9lB6y80O9TM2vzwG74DBULzMf7i0Sknyh8eWINRAiEAh2+Et5KhTg/R4Oc62JeSfs8hdJw9FSYYzfgJ1GnCzZU=",
-  "changelog": "Die Oberflaeche ist jetzt wirklich durchgehend zweisprachig. Uebersetzt wurden der WLAN-Erstbildschirm samt Sprachwahl (vorher gab es vor der WLAN-Verbindung keinen Weg zu Englisch), beide IRDB-Ablaeufe im Assistenten, die RF24-Diagnose und alle Server-Antworten von Anlernen, Funkupdate, IR-Lernen und Matter -- daher kamen die Mischtexte. Berichtigt wurden dabei auch Aussagen, die in BEIDEN Sprachen falsch waren: der Upload verlangte eine .bin statt einer .rmf, der Matter-Reset sprach von einer statt allen Kopplungen, und der Webhook-Test meldete Erfolg, sobald der Auftrag nur in der Warteschlange lag. Die Vorgabenamen der Aktivitaeten folgen der Sprache, solange sie unveraendert sind.",
+  "version": "4.61.0",
+  "build": 611,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.61.0.bin",
+  "size": 1937120,
+  "sig": "MEYCIQCjWs5avA9hMYZ7mzekTfr3YHCfBRMWM9ZD206aJAFy3QIhAICdMp+XzUMpp4A0X+F+aHgGhwfHyxjRjYe3Su25Felm",
+  "manifest_sig": "MEUCICO228fREIS3s1RHTfQpzVBTZFGSFPxWJyiiSfzHY7ZhAiEA81YGMONUQ/6K1gY1Nd4ZZysCdUdhAq6YqHXkuRp9csc=",
+  "changelog": "Die Sprachwahl ist jetzt der erste Bildschirm der Einrichtung. Wer den Hub auspackt, sich in den Einrichtungs-Hotspot einloggt und die Seite oeffnet, waehlt zuerst Deutsch oder Englisch -- vor dem WLAN und vor dem Assistenten. Bestehende Geraete bekommen diesen Bildschirm nicht, ihre Sprache bleibt unveraendert. Dazu ist die Oberflaeche von Schmuck-Symbolen befreit: 46 Piktogramme in Ueberschriften und Tasten sind entfallen. Haken, Warndreieck und die Trefferanzeige bleiben, weil sie einen Zustand anzeigen.",
   "remote": {
     "version": "3.9",
     "code": 57,

@@ -1,11 +1,11 @@
 {
-  "version": "4.61.0",
-  "build": 611,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.61.0.bin",
-  "size": 1937120,
-  "sig": "MEYCIQCjWs5avA9hMYZ7mzekTfr3YHCfBRMWM9ZD206aJAFy3QIhAICdMp+XzUMpp4A0X+F+aHgGhwfHyxjRjYe3Su25Felm",
-  "manifest_sig": "MEUCICO228fREIS3s1RHTfQpzVBTZFGSFPxWJyiiSfzHY7ZhAiEA81YGMONUQ/6K1gY1Nd4ZZysCdUdhAq6YqHXkuRp9csc=",
-  "changelog": "Die Sprachwahl ist jetzt der erste Bildschirm der Einrichtung. Wer den Hub auspackt, sich in den Einrichtungs-Hotspot einloggt und die Seite oeffnet, waehlt zuerst Deutsch oder Englisch -- vor dem WLAN und vor dem Assistenten. Bestehende Geraete bekommen diesen Bildschirm nicht, ihre Sprache bleibt unveraendert. Dazu ist die Oberflaeche von Schmuck-Symbolen befreit: 46 Piktogramme in Ueberschriften und Tasten sind entfallen. Haken, Warndreieck und die Trefferanzeige bleiben, weil sie einen Zustand anzeigen.",
+  "version": "4.62.1",
+  "build": 613,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.62.1.bin",
+  "size": 1985584,
+  "sig": "MEUCIB6dYJTMXo65PzP1+Hfm60UT+Wl/342ChebQgU4cT2aQAiEAx9yg4kS5Q3rUxmWkPUQJFYkOh7H326ZqsmJKEugFn38=",
+  "manifest_sig": "MEYCIQCJVNEz7/ahvxKNvrXuGfqSrwNoGQkkXpKJRqHZF0TgiwIhALn+mKvXPGdTdXpP841Qp6z0KD9KYDxLfHxXo0MyFycT",
+  "changelog": "Die Weboberflaeche sieht auf dem Home-Bildschirm jetzt aus wie eine App. Bisher lieferte der Hub unter /icon-192.png gar kein Bild, sondern eine Zeichenkette -- iPhone und Android zeigten deshalb ein Ersatzsymbol. Es gibt jetzt echte PNG-Symbole in den von iOS und Android erwarteten Groessen und sieben Startbilder gegen das kurze Weiss beim Starten. Am Ende der Einrichtung steht eine Anleitung, wie man RealMote auf den Home-Bildschirm legt; sie erkennt iPhone und Android und blendet sich aus, sobald es geschehen ist.",
   "remote": {
     "version": "3.9",
     "code": 57,

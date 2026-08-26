@@ -1,11 +1,11 @@
 {
-  "version": "4.63.0",
-  "build": 614,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.63.0.bin",
-  "size": 1988384,
-  "sig": "MEQCIARGXdT2dyLjBRLag95RMTM1Upd0/rhvLcm6J2wHXK/oAiA6QoAUjwCMjUDkV08TKGkEUy3pc2/1s5tYcGExVq+Z3Q==",
-  "manifest_sig": "MEUCICQSlTa9nBes44Kc40AIkEf5DgOys6t8dSTGX5hi2E79AiEA68jBKHILfL/GjAo9+OL46rh9HLIhr5H79P8qZxXdIbM=",
-  "changelog": "Die WLAN-Auswahl bei der Einrichtung zeigt jetzt an, welche Netze verschluesselt sind, und laesst bei offenen Netzen das Kennwortfeld weg. Die Verschluesselung wird dabei automatisch erkannt -- niemand muss eine Art auswaehlen. Netze, die mehrfach funken (Mesh oder zwei Baender), stehen nur noch einmal in der Liste, mit dem staerksten Signal. Wichtiger im Hintergrund: die Zugangsdaten werden nicht mehr direkt ueberschrieben, sondern erst daneben geschrieben, geprueft und dann umbenannt. Bricht das Speichern ab, gilt das bisherige Netz unveraendert weiter, statt dass der Hub im Einrichtungsmodus strandet.",
+  "version": "4.64.0",
+  "build": 615,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.64.0.bin",
+  "size": 1991904,
+  "sig": "MEUCIQCIEV6sBSj+ErmjGiqbTefwGVAcy0SM4OlmcCDkLGHVIQIgRRONQnX/PArg/3gXXScZRg8GUKdcrqw7g/aoy3o84iE=",
+  "manifest_sig": "MEYCIQDp5/wEItGBSCY1a3+soDe4NJIRdKccrSnzEC9MMllIzAIhAO697u/6TiIdIjrjXOzuvLDCUT4Zbwahd/53x+n/EiSY",
+  "changelog": "Zwei Dinge, die beim Einrichten und im Alltag schieflaufen konnten. Erstens: ein Tippfehler im WLAN-Kennwort kostete bisher das Netz -- der Hub schrieb die neuen Zugangsdaten sofort fest und strandete danach im Einrichtungsmodus. Jetzt werden neue Zugangsdaten zuerst nur danebengelegt und beim naechsten Start ausprobiert; erst wenn sie tragen, ersetzen sie die bisherigen. Sonst gilt das alte Netz unveraendert weiter und der Grund steht auf der Einrichtungsseite. Zweitens: war der Hub einmal im Einrichtungsmodus, kam er ohne Stromziehen nie wieder heraus. Nach einem Stromausfall, bei dem der Router laenger zum Hochfahren braucht als der Hub, blieb er dort haengen. Jetzt versucht er es nach zehn Minuten von selbst erneut.",
   "remote": {
     "version": "3.9",
     "code": 57,

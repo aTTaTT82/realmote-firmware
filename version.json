@@ -1,11 +1,11 @@
 {
-  "version": "4.66.0",
-  "build": 617,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.66.0.bin",
+  "version": "4.67.0",
+  "build": 618,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.67.0.bin",
   "size": 2514240,
-  "sig": "MEYCIQCGEWFh34QOpVV3FzhOvWO/VmnvJkZL3a5+nHPEFEV6owIhAL2vbrNFtJ4JiOaGpsYYjAi5b7RLxEbqQqYNQlX98ETH",
-  "manifest_sig": "MEQCIF9rlqnBiAmZ2a7T43OApu+7Zjk277XjLIjXg3h2hXi2AiAIvp/BnuAc68GLW776E0lY1BFJeeWxs3zgucL69Dw99A==",
-  "changelog": "Zwei Dinge. Erstens sagt der Update-Reiter jetzt die Wahrheit: bisher stand dort \"Du hast die neueste Version\", ohne dass der Hub den Matter-Teil ueberhaupt angesehen hatte. Haengt der zurueck, steht das jetzt da -- samt dem Hinweis, dass er sich beim naechsten Neustart von selbst nachzieht. Stimmt alles, bleibt die Zeile leer.\n\nZweitens sind die Startbilder fuer iPhones vor dem 12 (X, XS, XR, 11, 11 Pro, SE) entfallen. Auf diesen Geraeten zeigt die App beim Oeffnen jetzt die Hintergrundfarbe statt der Marke; dafuer belegt die Firmware wieder rund 200 KB weniger und laesst mehr Luft fuer kommende Funktionen.\n\nAn der Bedienung aendert sich nichts.",
+  "sig": "MEQCIFvEAYbUpBom6+fen5i49J0dRFqfj7fyh7dGBiw0WfN0AiBM3tmCWo+YKTcm6jcNuOXh4QRROcWr2ab2d9uezXoOqg==",
+  "manifest_sig": "MEQCICTC5IwIbVY9C24g1VPTYIGL2K7Ervt1U2Y/PuaI/5CXAiB7uPNFtyB976nvMVxaxgKfPsJjTHSr8jBJDkk2yGCy5w==",
+  "changelog": "Kleinigkeit mit Wirkung: der Knopf zum Anlernen eines IR-Codes heisst jetzt auch bei Fernseher, Android-TV und Sat/Kabel-Receiver \"Anlernen\" -- vorher stand dort nur ein \"L\". Drei farbige Kacheln nebeneinander, eine davon mit einem einzelnen Buchstaben: verstaendlich fuer den, der es gebaut hat, fuer sonst niemanden. In der Soundbar-Ansicht war es die ganze Zeit richtig; jetzt sind alle Seiten gleich.\n\nAn der Funktion aendert sich nichts.",
   "remote": {
     "version": "3.9",
     "code": 57,

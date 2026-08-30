@@ -1,11 +1,11 @@
 {
-  "version": "4.65.0",
-  "build": 616,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.65.0.bin",
-  "size": 2713264,
-  "sig": "MEQCIDtxIGd2P/IGGb/5B1SGfQoGfBdVY8OeenKDakPaMm0bAiBmz+xNVtQZf0VF7NtKw/S0Z9SqpsKE+QN13xJAWTof9A==",
-  "manifest_sig": "MEUCIQCNFGgglFrd4hTonJUhaJeDqOrRYJXLq2JzkGsjYqQSQQIgCaOt2jwJNOwVCOiNdJ22XK/eYUVOs2QdLB1bglGGa2A=",
-  "changelog": "RealMote hat ein richtiges Logo bekommen, und es steht jetzt ueberall gleich: auf dem Home-Bildschirm, im Startbild beim Oeffnen, oben in der Konfigurationsseite und -- zum ersten Mal ueberhaupt -- im Browser-Tab. Vorher war das App-Symbol ein weisses R auf gruener Flaeche, das mit dem Rest der Oberflaeche nichts zu tun hatte.\n\nWer die Seite schon einmal offen hatte, bekam ein neues Symbol bisher unter Umstaenden eine Woche lang nicht zu sehen: die Bilder lagen unter unveraenderten Adressen im Browser-Cache. Die Adressen tragen jetzt die Build-Nummer, damit das nicht mehr passiert. Ein bereits auf dem iPhone abgelegter Home-Bildschirm-Eintrag muss trotzdem einmal geloescht und neu angelegt werden -- iOS haelt Symbol und Startbild ausserhalb.\n\nAn der Funktion aendert sich nichts.",
+  "version": "4.66.0",
+  "build": 617,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.66.0.bin",
+  "size": 2514240,
+  "sig": "MEYCIQCGEWFh34QOpVV3FzhOvWO/VmnvJkZL3a5+nHPEFEV6owIhAL2vbrNFtJ4JiOaGpsYYjAi5b7RLxEbqQqYNQlX98ETH",
+  "manifest_sig": "MEQCIF9rlqnBiAmZ2a7T43OApu+7Zjk277XjLIjXg3h2hXi2AiAIvp/BnuAc68GLW776E0lY1BFJeeWxs3zgucL69Dw99A==",
+  "changelog": "Zwei Dinge. Erstens sagt der Update-Reiter jetzt die Wahrheit: bisher stand dort \"Du hast die neueste Version\", ohne dass der Hub den Matter-Teil ueberhaupt angesehen hatte. Haengt der zurueck, steht das jetzt da -- samt dem Hinweis, dass er sich beim naechsten Neustart von selbst nachzieht. Stimmt alles, bleibt die Zeile leer.\n\nZweitens sind die Startbilder fuer iPhones vor dem 12 (X, XS, XR, 11, 11 Pro, SE) entfallen. Auf diesen Geraeten zeigt die App beim Oeffnen jetzt die Hintergrundfarbe statt der Marke; dafuer belegt die Firmware wieder rund 200 KB weniger und laesst mehr Luft fuer kommende Funktionen.\n\nAn der Bedienung aendert sich nichts.",
   "remote": {
     "version": "3.9",
     "code": 57,

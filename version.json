@@ -1,11 +1,11 @@
 {
-  "version": "4.67.0",
-  "build": 618,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.67.0.bin",
-  "size": 2514240,
-  "sig": "MEQCIFvEAYbUpBom6+fen5i49J0dRFqfj7fyh7dGBiw0WfN0AiBM3tmCWo+YKTcm6jcNuOXh4QRROcWr2ab2d9uezXoOqg==",
-  "manifest_sig": "MEQCICTC5IwIbVY9C24g1VPTYIGL2K7Ervt1U2Y/PuaI/5CXAiB7uPNFtyB976nvMVxaxgKfPsJjTHSr8jBJDkk2yGCy5w==",
-  "changelog": "Kleinigkeit mit Wirkung: der Knopf zum Anlernen eines IR-Codes heisst jetzt auch bei Fernseher, Android-TV und Sat/Kabel-Receiver \"Anlernen\" -- vorher stand dort nur ein \"L\". Drei farbige Kacheln nebeneinander, eine davon mit einem einzelnen Buchstaben: verstaendlich fuer den, der es gebaut hat, fuer sonst niemanden. In der Soundbar-Ansicht war es die ganze Zeit richtig; jetzt sind alle Seiten gleich.\n\nAn der Funktion aendert sich nichts.",
+  "version": "4.70.0",
+  "build": 621,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.70.0.bin",
+  "size": 2509264,
+  "sig": "MEYCIQChSamBfk5SDka4yeWB9WGP0cTmzGPL8ThNr1rwsSSLuwIhALHJc3ndr+M5aGHraLX1eobjAzUHy0N6aIgOijnSjw0Q",
+  "manifest_sig": "MEQCICftU2RrK69PpBzcEHq3FbbWwD+QZyiV95KllRs/7agwAiAhRPpTwkNkcoyqJLi7shqip2AuH9cGS4icL6e+B7a0ug==",
+  "changelog": "Security-Paket 1: C6-Signaturbegleiter, Werksschluessel, WPA2-Hotspot mit Abschaltung, Geheimnisse write-only, Dev-OTA nur per Bauschalter; Hotfix Kanal-Begleiter",
   "remote": {
     "version": "3.9",
     "code": 57,

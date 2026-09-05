@@ -1,11 +1,11 @@
 {
-  "version": "4.72.0",
-  "build": 623,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.72.0.bin",
-  "size": 2526560,
-  "sig": "MEUCIQDGFRFSzQ1s3mX85eJXsFfXOdORbly6ki2TFyp6dWBJ8AIgOJBpQ+q7uBJwD9787UmQJguXYqOsI43d/tqU6o3DFG8=",
-  "manifest_sig": "MEUCIDCfrMamQsXXgWuCC5tAZYxzHRJJGuZPQLSbbgLFAGC6AiEAzgyDZC2Wh+JmW6vXWuvWuPYoBPux0CI3yO7HO8wmLDE=",
-  "changelog": "Anmeldung: zentraler Pruefpunkt vor allen Adressen, Challenge-Response-Login, Sitzungs-Cookie, Fehlversuchssperre, eigenes Passwort; Werksschluessel, WPA2-Hotspot, write-only-Geheimnisse, Dev-OTA nur per Bauschalter, C6-Signaturbegleiter",
+  "version": "4.73.0",
+  "build": 624,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.73.0.bin",
+  "size": 2528400,
+  "sig": "MEYCIQC9uEVSLP7Wq2XDdpLZY9oEqHsIjdTg8niH3J/f/SFRjAIhAInTDjyROqcghzMSU8lqjJRauUE7cU8R/3u4H25Q5h5m",
+  "manifest_sig": "MEUCIE8lNgMOdOXNh/ZOc9gQ+pZLo85PgFCcgPR6EAdEI6L1AiEAs51Cuv5MzHlmgLxcxvv4hIxg+WmQgVzzJKwwLIuqWVA=",
+  "changelog": "Sitzungen gelten 30 Tage gleitend und ueberleben Neustarts; Anmelde-QR (/login#k=...); Werksreset loescht die richtigen WLAN-Dateien",
   "remote": {
     "version": "3.9",
     "code": 57,

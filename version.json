@@ -1,11 +1,11 @@
 {
-  "version": "4.70.0",
-  "build": 621,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.70.0.bin",
-  "size": 2509264,
-  "sig": "MEYCIQChSamBfk5SDka4yeWB9WGP0cTmzGPL8ThNr1rwsSSLuwIhALHJc3ndr+M5aGHraLX1eobjAzUHy0N6aIgOijnSjw0Q",
-  "manifest_sig": "MEQCICftU2RrK69PpBzcEHq3FbbWwD+QZyiV95KllRs/7agwAiAhRPpTwkNkcoyqJLi7shqip2AuH9cGS4icL6e+B7a0ug==",
-  "changelog": "Security-Paket 1: C6-Signaturbegleiter, Werksschluessel, WPA2-Hotspot mit Abschaltung, Geheimnisse write-only, Dev-OTA nur per Bauschalter; Hotfix Kanal-Begleiter",
+  "version": "4.72.0",
+  "build": 623,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.72.0.bin",
+  "size": 2526560,
+  "sig": "MEUCIQDGFRFSzQ1s3mX85eJXsFfXOdORbly6ki2TFyp6dWBJ8AIgOJBpQ+q7uBJwD9787UmQJguXYqOsI43d/tqU6o3DFG8=",
+  "manifest_sig": "MEUCIDCfrMamQsXXgWuCC5tAZYxzHRJJGuZPQLSbbgLFAGC6AiEAzgyDZC2Wh+JmW6vXWuvWuPYoBPux0CI3yO7HO8wmLDE=",
+  "changelog": "Anmeldung: zentraler Pruefpunkt vor allen Adressen, Challenge-Response-Login, Sitzungs-Cookie, Fehlversuchssperre, eigenes Passwort; Werksschluessel, WPA2-Hotspot, write-only-Geheimnisse, Dev-OTA nur per Bauschalter, C6-Signaturbegleiter",
   "remote": {
     "version": "3.9",
     "code": 57,

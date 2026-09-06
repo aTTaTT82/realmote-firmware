@@ -1,11 +1,11 @@
 {
-  "version": "4.73.0",
-  "build": 624,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.73.0.bin",
-  "size": 2528400,
-  "sig": "MEYCIQC9uEVSLP7Wq2XDdpLZY9oEqHsIjdTg8niH3J/f/SFRjAIhAInTDjyROqcghzMSU8lqjJRauUE7cU8R/3u4H25Q5h5m",
-  "manifest_sig": "MEUCIE8lNgMOdOXNh/ZOc9gQ+pZLo85PgFCcgPR6EAdEI6L1AiEAs51Cuv5MzHlmgLxcxvv4hIxg+WmQgVzzJKwwLIuqWVA=",
-  "changelog": "Sitzungen gelten 30 Tage gleitend und ueberleben Neustarts; Anmelde-QR (/login#k=...); Werksreset loescht die richtigen WLAN-Dateien",
+  "version": "4.74.0",
+  "build": 625,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.74.0.bin",
+  "size": 2528160,
+  "sig": "MEYCIQCr1Qaa/QfTwDKUXH8OOFNTsmDCpP6OVeCdON1VrJk/2QIhAO4DUwLjo5j89YNbn8oHFPmTzo7RKRfL7T8djAeBYz3v",
+  "manifest_sig": "MEUCIQCC3Q/a/09O3XV0/FxwoctIZ6UmQtaJZL+m3A/wJ1oPtwIgDvyTuHAjzvNqMcAEvvWH0doH7pqVx4CDgYf9iRtwnDw=",
+  "changelog": "Einrichtungs-Hotspot bleibt bei jedem Start bis zur gelungenen Einrichtung (15-Minuten-Abschaltung entfernt); WPA2 mit dem Werksschluessel bleibt",
   "remote": {
     "version": "3.9",
     "code": 57,

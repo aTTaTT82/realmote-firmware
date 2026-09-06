@@ -1,11 +1,11 @@
 {
-  "version": "4.74.0",
-  "build": 625,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.74.0.bin",
-  "size": 2528160,
-  "sig": "MEYCIQCr1Qaa/QfTwDKUXH8OOFNTsmDCpP6OVeCdON1VrJk/2QIhAO4DUwLjo5j89YNbn8oHFPmTzo7RKRfL7T8djAeBYz3v",
-  "manifest_sig": "MEUCIQCC3Q/a/09O3XV0/FxwoctIZ6UmQtaJZL+m3A/wJ1oPtwIgDvyTuHAjzvNqMcAEvvWH0doH7pqVx4CDgYf9iRtwnDw=",
-  "changelog": "Einrichtungs-Hotspot bleibt bei jedem Start bis zur gelungenen Einrichtung (15-Minuten-Abschaltung entfernt); WPA2 mit dem Werksschluessel bleibt",
+  "version": "4.75.0",
+  "build": 626,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.75.0.bin",
+  "size": 2536544,
+  "sig": "MEUCIQDY29rcweztBjdFAy/Dina+xZ7+ELDzPfRKvIeDBAHNdAIgLircasJDP8GbOz2/zxUlXQrrtofqJ2agODzvidWNDjs=",
+  "manifest_sig": "MEUCIQDct0erkTOOAvScbrv0HcOYHvhwxUCZQd042DzLlVHpOQIgBQQBPn6TNie9OOcmnUUwm5SD4kTzwGTrqpbLIeMEI+A=",
+  "changelog": "Geraet hinzufuegen: der Hub zeigt unter /geraet einen Einmal-QR (10 min, einmal verwendbar), mit dem sich ein weiteres Handy ohne Passwort anmeldet",
   "remote": {
     "version": "3.9",
     "code": 57,

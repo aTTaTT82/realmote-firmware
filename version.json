@@ -1,11 +1,11 @@
 {
-  "version": "4.75.0",
-  "build": 626,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.75.0.bin",
-  "size": 2536544,
-  "sig": "MEUCIQDY29rcweztBjdFAy/Dina+xZ7+ELDzPfRKvIeDBAHNdAIgLircasJDP8GbOz2/zxUlXQrrtofqJ2agODzvidWNDjs=",
-  "manifest_sig": "MEUCIQDct0erkTOOAvScbrv0HcOYHvhwxUCZQd042DzLlVHpOQIgBQQBPn6TNie9OOcmnUUwm5SD4kTzwGTrqpbLIeMEI+A=",
-  "changelog": "Geraet hinzufuegen: der Hub zeigt unter /geraet einen Einmal-QR (10 min, einmal verwendbar), mit dem sich ein weiteres Handy ohne Passwort anmeldet",
+  "version": "4.77.0",
+  "build": 628,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.77.0.bin",
+  "size": 2612480,
+  "sig": "MEUCIQC1YqsBj+lEzJqwHTZpgLVqyuheVu7dsYEyIDSLlA4bGAIgOM3f+xXkK3Zb3Zv4T7rBYt6Cjlhs1+3LVM/2J1kPk2M=",
+  "manifest_sig": "MEYCIQDZbNlOasIYPz/tivCEiri++auJQ8usLoYM4IetwA+zNAIhAO3mkRyc9/zAanZiiaYSSamLcPjoAdzaTPzLZypWi6jz",
+  "changelog": "Eingabepruefung aller Handler (14 Fundstellen + Review), HTTPS prueft Zertifikate, Fernbedienungs-Upload in Nebendatei; /remotefw und /remoteota wieder ohne Sitzung (Signatur ist das Credential, HA-Integration laeuft wieder)",
   "remote": {
     "version": "3.9",
     "code": 57,

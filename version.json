@@ -1,11 +1,11 @@
 {
-  "version": "4.77.0",
-  "build": 628,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.77.0.bin",
-  "size": 2612480,
-  "sig": "MEUCIQC1YqsBj+lEzJqwHTZpgLVqyuheVu7dsYEyIDSLlA4bGAIgOM3f+xXkK3Zb3Zv4T7rBYt6Cjlhs1+3LVM/2J1kPk2M=",
-  "manifest_sig": "MEYCIQDZbNlOasIYPz/tivCEiri++auJQ8usLoYM4IetwA+zNAIhAO3mkRyc9/zAanZiiaYSSamLcPjoAdzaTPzLZypWi6jz",
-  "changelog": "Eingabepruefung aller Handler (14 Fundstellen + Review), HTTPS prueft Zertifikate, Fernbedienungs-Upload in Nebendatei; /remotefw und /remoteota wieder ohne Sitzung (Signatur ist das Credential, HA-Integration laeuft wieder)",
+  "version": "4.78.0",
+  "build": 629,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.78.0.bin",
+  "size": 2615440,
+  "sig": "MEYCIQDHEHUOqAaL3+VZbz3qJ57DL/N3HMsi7HVpzi7+4VRM2wIhAOhZ8lpXQzOciEWXm7KbI7VuuuzYd42+ge8nytOlMmnv",
+  "manifest_sig": "MEUCIHzwX8X1otq0Ip2uBcnBiiUknORCfNbf7I5QpbmdCz/rAiEA5UwssUkHKMlJJTdlCq3yjwKnTEYChYhHNODAl6ayeZ0=",
+  "changelog": "Uebergabe nach der Einrichtung: das Handy aus dem Hotspot ist im Heim-WLAN ohne Tippen angemeldet (Einladung ueberlebt den Neustart, 30 min, einmal); der Anmelde-QR entfaellt",
   "remote": {
     "version": "3.9",
     "code": 57,

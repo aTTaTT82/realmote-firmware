@@ -1,11 +1,11 @@
 {
-  "version": "4.78.0",
-  "build": 629,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.78.0.bin",
-  "size": 2615440,
-  "sig": "MEYCIQDHEHUOqAaL3+VZbz3qJ57DL/N3HMsi7HVpzi7+4VRM2wIhAOhZ8lpXQzOciEWXm7KbI7VuuuzYd42+ge8nytOlMmnv",
-  "manifest_sig": "MEUCIHzwX8X1otq0Ip2uBcnBiiUknORCfNbf7I5QpbmdCz/rAiEA5UwssUkHKMlJJTdlCq3yjwKnTEYChYhHNODAl6ayeZ0=",
-  "changelog": "Uebergabe nach der Einrichtung: das Handy aus dem Hotspot ist im Heim-WLAN ohne Tippen angemeldet (Einladung ueberlebt den Neustart, 30 min, einmal); der Anmelde-QR entfaellt",
+  "version": "4.79.0",
+  "build": 630,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.79.0.bin",
+  "size": 2616976,
+  "sig": "MEUCIEoS+bFADRDBNYvfjqR66Kd7VmRKVNk70q8at3rSxStpAiEAmYRv5j4TKyLUyHSlTr0qWm0NAXR76CVSfNKL21/0+j8=",
+  "manifest_sig": "MEUCIQCNDsKzOQyxHYWsfJCsHT86+1Rp96YzHMAgmYn26qLxlgIgQSFPMixSn0qGLjg7TqnLHxuneE22hboUkHF0qUl4ZfY=",
+  "changelog": "Werks-Erstbespielung: ein fabrikneuer Hub spielt sein Matter-Beiboot beim ersten Start selbst ein (Fertigung mit einem Programmer). Fuer eingerichtete Hubs aendert sich nichts.",
   "remote": {
     "version": "3.9",
     "code": 57,

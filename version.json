@@ -1,11 +1,11 @@
 {
-  "version": "4.79.1",
-  "build": 631,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.79.1.bin",
-  "size": 2617056,
-  "sig": "MEQCIHnZrmN207m4t9t+rdfiZrcIS1EGcN3/1BCAGIHbRcWIAiAgeuFXEQonGjnXUFIJ0Nw/4ZxRW06BjR8tWZ+SMgEanw==",
-  "manifest_sig": "MEQCIBTUWyRjwbZ9B4bxH765RzaZ/fBYOCyU4a1nYl2XcEPbAiBu3x8zmeRgwWu9kq5Tu4dySfm8CtyXuzjglnXV4Sa/aA==",
-  "changelog": "Home Assistant zeigt Updates für Hub und Fernbedienung wieder an (seit 4.72.0 blieb die Anzeige dort stumm).",
+  "version": "4.79.2",
+  "build": 632,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.79.2.bin",
+  "size": 2617504,
+  "sig": "MEUCIGTg9r1fHu8Vt664WfFoEUtKfGl5Ry1dUxlpLWKtS8v+AiEA1uMn6S5n+zF6g9zovbB8gfFqNh2vM/c3gyPU9Ri8BfM=",
+  "manifest_sig": "MEUCIQDLQx9XRQEXjFcRCAK0VvUR9+FsrG1t9X/kqbfeLZbvrwIgbcDfdZ0Me65EK515aL/zsCyck6QQ2zeSfAFSJltXFdo=",
+  "changelog": "Sicherheit: Ohne Anmeldung liefert der Hub keine Fernbedienungsseite mehr über unbekannte Adressen.",
   "remote": {
     "version": "3.9",
     "code": 57,

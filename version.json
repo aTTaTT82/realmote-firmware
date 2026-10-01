@@ -1,11 +1,11 @@
 {
-  "version": "4.79.2",
-  "build": 632,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.79.2.bin",
-  "size": 2617504,
-  "sig": "MEUCIGTg9r1fHu8Vt664WfFoEUtKfGl5Ry1dUxlpLWKtS8v+AiEA1uMn6S5n+zF6g9zovbB8gfFqNh2vM/c3gyPU9Ri8BfM=",
-  "manifest_sig": "MEUCIQDLQx9XRQEXjFcRCAK0VvUR9+FsrG1t9X/kqbfeLZbvrwIgbcDfdZ0Me65EK515aL/zsCyck6QQ2zeSfAFSJltXFdo=",
-  "changelog": "Sicherheit: Ohne Anmeldung liefert der Hub keine Fernbedienungsseite mehr über unbekannte Adressen.",
+  "version": "4.80.0",
+  "build": 633,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.80.0.bin",
+  "size": 2632496,
+  "sig": "MEUCIBSKN1P80erbej2F8JhORa9TaHgUruksSiny6o8Ng58EAiEAkODD1x9C18zuTDm7g48lDYPaTTD/csi66wV5xW1rV4Y=",
+  "manifest_sig": "MEUCIQDJhlRLPBCfJJmL8DYopeTP3zaQmM89IFb/3piqkDXqpAIgEtQXVw90U/EAxYlzY/9o+vqbYDs2ExjvApupsSkz3c0=",
+  "changelog": "Einrichtung: der Hub verbindet sich aus dem Hotspot heraus, zeigt seine Adresse im WLAN und meldet das Handy am Ende ohne Passwort an (iPhone: Knopf lange druecken, In Safari oeffnen). Netzliste in der Einrichtung wieder antippbar.",
   "remote": {
     "version": "3.9",
     "code": 57,

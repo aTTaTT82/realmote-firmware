@@ -1,11 +1,11 @@
 {
-  "version": "4.80.0",
-  "build": 633,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.80.0.bin",
-  "size": 2632496,
-  "sig": "MEUCIBSKN1P80erbej2F8JhORa9TaHgUruksSiny6o8Ng58EAiEAkODD1x9C18zuTDm7g48lDYPaTTD/csi66wV5xW1rV4Y=",
-  "manifest_sig": "MEUCIQDJhlRLPBCfJJmL8DYopeTP3zaQmM89IFb/3piqkDXqpAIgEtQXVw90U/EAxYlzY/9o+vqbYDs2ExjvApupsSkz3c0=",
-  "changelog": "Einrichtung: der Hub verbindet sich aus dem Hotspot heraus, zeigt seine Adresse im WLAN und meldet das Handy am Ende ohne Passwort an (iPhone: Knopf lange druecken, In Safari oeffnen). Netzliste in der Einrichtung wieder antippbar.",
+  "version": "4.81.3",
+  "build": 637,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.3.bin",
+  "size": 2637488,
+  "sig": "MEUCIC83KuP5TFu36qSU+ceqxJOyEoS9yLCISDp8j03AvN6tAiEAnFvx6njjACvoXCeGtz0wr+OjiZinth/8Fu5fzevfmV4=",
+  "manifest_sig": "MEQCIADy1hbxJD0nx39h87Tp7ZS/8undJvxtBqXqRHG6ffo3AiBr1g69MDP6+yEAWLOs8BU9dAPT40Zuf8pzDCUlihIFQw==",
+  "changelog": "Einrichtung ganz in der iOS-App: kein Anmeldefenster ueber der App mehr (die Internet-Probe wartet auf die App), ohne App wie bisher.",
   "remote": {
     "version": "3.9",
     "code": 57,

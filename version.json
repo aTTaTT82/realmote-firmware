@@ -1,11 +1,11 @@
 {
-  "version": "4.81.3",
-  "build": 637,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.3.bin",
-  "size": 2637488,
-  "sig": "MEUCIC83KuP5TFu36qSU+ceqxJOyEoS9yLCISDp8j03AvN6tAiEAnFvx6njjACvoXCeGtz0wr+OjiZinth/8Fu5fzevfmV4=",
-  "manifest_sig": "MEQCIADy1hbxJD0nx39h87Tp7ZS/8undJvxtBqXqRHG6ffo3AiBr1g69MDP6+yEAWLOs8BU9dAPT40Zuf8pzDCUlihIFQw==",
-  "changelog": "Einrichtung ganz in der iOS-App: kein Anmeldefenster ueber der App mehr (die Internet-Probe wartet auf die App), ohne App wie bisher.",
+  "version": "4.81.4",
+  "build": 638,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.4.bin",
+  "size": 2636128,
+  "sig": "MEYCIQCuOuQYxIFswIeEZKdgOvnUDGO0EyTXJ+UIrHFUY2dtwAIhANjtu5epJtXqhDpxdSko0cgpt1LOGl3mLNNxFZ96MKcs",
+  "manifest_sig": "MEYCIQCJyOUFbRmzgOe6Da8snRmXFcqsdIzjBYUwmNaxcmm9AAIhAIRfiEa8WZYiyiX8eURzWpEkbeAS0NTie5LEiu0V+Tnu",
+  "changelog": "Werksreset meldet alle Geraete ab; im Browser bleibt man angemeldet, solange man den Hub nutzt; Konfigurationsseite ohne Entwickler-Kasten.",
   "remote": {
     "version": "3.9",
     "code": 57,

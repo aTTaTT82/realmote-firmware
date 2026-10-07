@@ -1,11 +1,11 @@
 {
-  "version": "4.81.4",
-  "build": 638,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.4.bin",
-  "size": 2636128,
-  "sig": "MEYCIQCuOuQYxIFswIeEZKdgOvnUDGO0EyTXJ+UIrHFUY2dtwAIhANjtu5epJtXqhDpxdSko0cgpt1LOGl3mLNNxFZ96MKcs",
-  "manifest_sig": "MEYCIQCJyOUFbRmzgOe6Da8snRmXFcqsdIzjBYUwmNaxcmm9AAIhAIRfiEa8WZYiyiX8eURzWpEkbeAS0NTie5LEiu0V+Tnu",
-  "changelog": "Werksreset meldet alle Geraete ab; im Browser bleibt man angemeldet, solange man den Hub nutzt; Konfigurationsseite ohne Entwickler-Kasten.",
+  "version": "4.81.5",
+  "build": 639,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.5.bin",
+  "size": 2636288,
+  "sig": "MEYCIQDx+jktEte4BUdJJPPeoGiMhUWyzclf89JROd/7JFJ8+AIhAJu4c45YyTez0/2zLzSznVFSVb+46+w0NIUyKwAcNWn3",
+  "manifest_sig": "MEUCIHOWydP5mA67pXZ0LsQsGVARO+3tkYWkq7+O5Z61xU4WAiEA5HmryOJ/avBxYEQHzugIOB3muaRdzNDIjfI1pQHLDjw=",
+  "changelog": "Einrichtung: der Hotspot laeuft gleich im AP+STA-Modus -- die erste Netzsuche wirft das Handy nicht mehr aus dem Hotspot (Android-App)",
   "remote": {
     "version": "3.9",
     "code": 57,

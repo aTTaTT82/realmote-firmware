@@ -7,13 +7,13 @@
   "manifest_sig": "MEYCIQCF26rJ5c3+fe95riQwuZWAf93Km70cLrhkbZApW9tV/gIhAOmEKKyBEeOp5lgGPnInDyuULc64y2rUBdeR0wCK3iXs",
   "changelog": "Status-LED einstellbar (Helligkeit, Tastenblitz, Blinkmuster bei Hotspot und WLAN-Problemen, Werksreset setzt sie zurück), Funk des Hubs leise (LOW, einstellbar MIN/LOW), Kanal-Ausweichen gegen Funklöcher (76/50/25)",
   "remote": {
-    "version": "3.9",
-    "code": 57,
-    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Remote-v3.9.rmf",
-    "size": 11124,
-    "changelog": "Die Fernbedienung meldet ihre Version an den Hub (einmal je Wachphase, reservierte ID, gleiche Paketgroesse). Dazu 15-s-Nachlauf und 1-Hz-Lebenszeichen aus v3.8."
+    "version": "3.11",
+    "code": 59,
+    "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Remote-v3.11.rmf",
+    "size": 11307,
+    "changelog": "Leise (PA_LOW) und Kanal-Ausweichen gegen Funklöcher (76/50/25)"
   },
-  "remote_sig": "MEUCIQCMRfbB7vbSSaDkfQNonxpcXDVispHfA6XG0tbMNii/aQIgW+dAKri/CKTKbG4bPRFseHSMTITidafXwnxrSVjwlZE=",
+  "remote_sig": "MEQCIEgHBjZY1aRUW1yd9XZap9GOKqgL7jSHsGVm3OLspMDdAiBlm12nnHPs2ljia0WUDx0rbEEfThzTc+wpVkXIfIGtEA==",
   "c6": {
     "version": "v0.27",
     "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-C6-Matter-XIAO-v0.27-app.bin",

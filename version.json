@@ -1,11 +1,11 @@
 {
-  "version": "4.81.11",
-  "build": 645,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.11.bin",
-  "size": 2655888,
-  "sig": "MEYCIQDWt3EIgeau1P020mYiBHRbeZmE4fvvHgtFvlCbM4jmVwIhAIEyGRfxJl9I02EJuBfQTHc2XTI+2mriaHDPNgT656Tb",
-  "manifest_sig": "MEYCIQCF26rJ5c3+fe95riQwuZWAf93Km70cLrhkbZApW9tV/gIhAOmEKKyBEeOp5lgGPnInDyuULc64y2rUBdeR0wCK3iXs",
-  "changelog": "Status-LED einstellbar (Helligkeit, Tastenblitz, Blinkmuster bei Hotspot und WLAN-Problemen, Werksreset setzt sie zurück), Funk des Hubs leise (LOW, einstellbar MIN/LOW), Kanal-Ausweichen gegen Funklöcher (76/50/25)",
+  "version": "4.81.12",
+  "build": 646,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.12.bin",
+  "size": 2655952,
+  "sig": "MEUCIQCbF9xFcOei4t6gGEe3hQ9SBSx9A+a9/qgF0U1vBhkKNgIgec5QztDdCF4HYsaPBg1B6uNEo9yWrMlTSfS9qfKzrVE=",
+  "manifest_sig": "MEQCIEG8AbLlkisIUG372awQyS1BJ+3WPUkzNaqgniB63e48AiA5L8eMJ87s+h8bDiVKj7YCEjPyMv0iHNi7XNPbea0e+Q==",
+  "changelog": "Funk-Update der Fernbedienung geht wieder: der Hub sendet das Update mit kleinster Sendeleistung und kehrt danach zu seiner Einstellung zurück",
   "remote": {
     "version": "3.11",
     "code": 59,

@@ -1,11 +1,11 @@
 {
-  "version": "4.81.7",
-  "build": 641,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.7.bin",
-  "size": 2636400,
-  "sig": "MEYCIQDE3p/+Wx4zUFuzWoiGonWUeKKGRXzlxovZowJNwHp9mgIhAKP7MXsY4IUtaHkZHZGyjuqZIqC/p1UVT0R7j+Uz2BK0",
-  "manifest_sig": "MEUCIQDpimeBTe0fRb8JMKt4aORWAJ+ICqxeBYy0uqGzNvIREwIgGTKwY+axVzW3ND1ECcc2jI4Ukm6uKobSYJMUAYtJ6Z0=",
-  "changelog": "WLAN: staerksten Access Point nehmen statt des ersten; Sendeleistung 19,5 statt 8,5 dBm",
+  "version": "4.81.11",
+  "build": 645,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.11.bin",
+  "size": 2655888,
+  "sig": "MEYCIQDWt3EIgeau1P020mYiBHRbeZmE4fvvHgtFvlCbM4jmVwIhAIEyGRfxJl9I02EJuBfQTHc2XTI+2mriaHDPNgT656Tb",
+  "manifest_sig": "MEYCIQCF26rJ5c3+fe95riQwuZWAf93Km70cLrhkbZApW9tV/gIhAOmEKKyBEeOp5lgGPnInDyuULc64y2rUBdeR0wCK3iXs",
+  "changelog": "Status-LED einstellbar (Helligkeit, Tastenblitz, Blinkmuster bei Hotspot und WLAN-Problemen, Werksreset setzt sie zurück), Funk des Hubs leise (LOW, einstellbar MIN/LOW), Kanal-Ausweichen gegen Funklöcher (76/50/25)",
   "remote": {
     "version": "3.9",
     "code": 57,

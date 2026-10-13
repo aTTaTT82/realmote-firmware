@@ -1,11 +1,11 @@
 {
-  "version": "4.81.12",
-  "build": 646,
-  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.12.bin",
-  "size": 2655952,
-  "sig": "MEUCIQCbF9xFcOei4t6gGEe3hQ9SBSx9A+a9/qgF0U1vBhkKNgIgec5QztDdCF4HYsaPBg1B6uNEo9yWrMlTSfS9qfKzrVE=",
-  "manifest_sig": "MEQCIEG8AbLlkisIUG372awQyS1BJ+3WPUkzNaqgniB63e48AiA5L8eMJ87s+h8bDiVKj7YCEjPyMv0iHNi7XNPbea0e+Q==",
-  "changelog": "Funk-Update der Fernbedienung geht wieder: der Hub sendet das Update mit kleinster Sendeleistung und kehrt danach zu seiner Einstellung zurück",
+  "version": "4.81.14",
+  "build": 648,
+  "url": "https://raw.githubusercontent.com/aTTaTT82/realmote-firmware/main/RealMote-Hub-v4.81.14.bin",
+  "size": 2657136,
+  "sig": "MEUCIQCHkaPxgrz/DpCY3tFm6Ge/y5b7Kw9DP2dNohOyKuIr2wIgeMKLYR71xzZKbyv6QI09qkPfd/CHz/T5u4H+qCXWa5I=",
+  "manifest_sig": "MEUCIQDwvRAWHDSOscFwVDqwkB4yP8S3ANlsPl6rYKa74VbOBQIgLh0vDsfwRKX7A+CLav8b/dVKwUcmvLVKgANk2rVyoBw=",
+  "changelog": "Sicherheit: POST ohne Firmware-Paket startet den Hub nicht mehr neu und bringt ihn nicht mehr zum Absturz; Anfragen fremder Webseiten (CSRF) werden abgewiesen",
   "remote": {
     "version": "3.11",
     "code": 59,
